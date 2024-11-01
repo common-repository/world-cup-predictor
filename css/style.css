@@ -1,0 +1,238 @@
+@CHARSET "UTF-8";
+
+/**
+ * @package WorldCup
+ * @version $Id: style.css 2153552 2019-09-09 12:55:03Z landoweb $
+ * @author landoweb
+ * Copyright Landoweb Programador, 2014
+ */
+
+/* Countdown clock */
+.wcup_clock {
+	text-align:center;
+}
+
+.updated, .saved, .error {
+	border-style:solid;
+	border-width:1px;
+	margin:10px 0 5px 0;
+	padding:0.5em 0 0 1em;
+}
+
+.saved strong {
+    font-weight: 600;
+}
+
+.error {
+	background-color:#FFEBE8;
+	border-color:#CC0000;
+}
+
+.updated, .saved {
+	background-color:#FFFFE0;
+	border-color:#E6DB55;
+}
+
+.message {
+	font-weight:bold;
+	text-align:center;
+}
+
+.tzClient {
+	font-weight:bold;
+}
+
+/* Tables */
+table, th, td {
+	border:0;
+}
+
+.wcup-header {
+	line-height:1.5em;
+	background-color:#B3B3B3;
+	color:#000;
+}
+
+.wcup-row {
+	line-height:1.7em;
+}
+
+.wcup-team a {
+	color:#24890d;
+	vertical-align: middle;
+}
+
+.wcup-points, .wcup-review, .wcup-score {
+	text-align:center;
+	padding-right:0.5em;
+	vertical-align:middle;
+}
+
+.wcup-points {
+	width:7%;
+}
+
+.wcup-review {
+	width:10%;
+}
+
+.wcup-score {
+	width:17%;
+}
+
+/* Zebra */
+table.zebra th {
+	border: none;
+}
+table.zebra tr.alt td {
+	vertical-align:middle;
+/*	border-bottom:1px solid #CCCCCE;*/
+	border: none;
+	background:#CCCCCE none repeat scroll 0 0;
+	color:#000;	
+}
+table.zebra tr.even td {
+	vertical-align:middle;
+/*	border-bottom:1px solid #CCCCCE;*/
+	border: none;
+	background:#FFFFFF none repeat scroll 0 0;
+	color:#000;
+}
+
+table.scores th {
+	text-transform:capitalize;
+}
+
+/*
+ * Predictions tables
+ */
+table.predictor,
+table.wcp-group {
+	width:100%;
+	margin-bottom:15px;
+}
+
+table tr.predict td {
+	padding-top:15px;
+}
+
+table.predictor td {
+	border:none;
+}
+
+table.predictor td.sep {
+	border-bottom:1px solid black;
+	text-align:center;
+}
+
+table.predictor td.l, table.predictor td.r {
+	width:42%;
+	vertical-align: middle;
+}
+
+table.predictor td.l a, table.predictor td.r a {
+	vertical-align: middle;
+}
+
+table.predictor td.l {
+	text-align:left;
+}
+
+table.predictor td.r {
+	text-align:right;
+}
+
+table.predictor td.cl, table.predictor td.cr {
+	width:4%;
+	text-align:center;
+}
+
+table.predictor td.c {
+	width:2%;
+	text-align:center;
+}
+
+table.predictor td.res {
+	width:6%;
+	text-align:center;
+}
+
+table.predictor td.cl input, table.predictor td.cr input {
+	width:2.5em;
+	text-align:center;
+	font-weight:bold;
+	padding:7px;
+}
+
+table.knockout {
+	margin:1em 0;
+	font-size:80%;
+	width:100%;
+}
+
+table.knockout td{
+	vertical-align:middle;
+}
+
+.entry-content th, .entry-content td {
+	padding:1px;
+}
+
+.entry-content p {
+	text-align:justify;
+}
+
+.widget h3 {
+	margin:0 0 12px;
+}
+
+.wcup_user_pred_widget{
+	font-size:85%;
+}
+
+.wcup_flag {
+	border:none;
+}
+
+.message p {
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.team-flag {
+	width: 46px;
+}
+
+table.predictor td.l .team-flag, table.predictor td.l .team-name {
+	float: left;
+}
+
+table.predictor td.r .team-flag, table.predictor td.r .team-name {
+	float: right;
+	padding-right: 10px;
+}
+
+table {
+    table-layout: auto;
+}
+
+.entry-content .wcup-team a, .widget .wcup-team a, .entry-content .wcup-review a, .widget .wcup-review a, 
+.entry-content .predictor a, .entry-content .wcup-team a img, .widget .wcup-team a img, .entry-content .wcup-review a img, 
+.widget .wcup-review a img, .entry-content .predictor a img {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+@media only screen and (max-width: 479px) {
+	table.wcp-group, .wcup_clock {
+		font-size:80%;
+	}
+	
+	table.predictor, table.scores {
+		font-size:75%;
+	}
+	
+	table.knockout {
+		font-size:50%;
+	}	
+}

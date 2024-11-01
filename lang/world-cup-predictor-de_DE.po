@@ -1,0 +1,1368 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: World Cup Predictor v1.7\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/world-cup-predictor\n"
+"POT-Creation-Date: 2017-04-28 16:26-0300\n"
+"PO-Revision-Date: 2017-05-02 10:03-0300\n"
+"Last-Translator: Landoweb Programador <contato@landoweb.com.br>\n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ world-cup-predictor
+#: wcp-predict.class.php:50
+#, php-format
+msgid ""
+"Please <a href=\"%1$s\">login</a> or <a href=\"%2$s\">register</a> to make a "
+"prediction"
+msgstr ""
+"Bitte <a href=\"%1$s\">Anmelden</a> oder <a href=\"%2$s\">Registrieren</a> "
+"um am Tippspiel teilzunehmen"
+
+# @ world-cup-predictor
+#: wcp-predict.class.php:105 wcp-predict.class.php:436
+msgid "No matches available in this championship."
+msgstr "In dieser Meisterschaft sind keine Spiele vorhanden"
+
+# @ world-cup-predictor
+#: wcp-predict.class.php:108 admin/wcp-scoring.class.php:146
+msgid "Save"
+msgstr "Speichern"
+
+# @ world-cup-predictor
+#: wcp-predict.class.php:147 wcp-reports.class.php:400
+#: wcp-reports.class.php:418
+msgid "Penalties"
+msgstr "Elfmeterschießen"
+
+# @ world-cup-predictor
+#: wcp-predict.class.php:221
+msgid "Prediction saved"
+msgstr "Tipp gespeichert"
+
+# @ world-cup-predictor
+#: wcp-predict.class.php:235 wcp-predict.class.php:244
+#: wcp-predict.class.php:253 wcp-predict.class.php:265
+msgid "Match score must be numeric"
+msgstr "Spielergebnis muss eine Zahl sein"
+
+# @ world-cup-predictor
+#: wcp-predict.class.php:273
+msgid "You can only enter penalties for a draw"
+msgstr "Elfmeter können nur bei Unentschieden eingetragen werden!"
+
+# @ world-cup-predictor
+#: wcp-predict.class.php:302
+msgid "Missing match. Prediction not saved."
+msgstr "Spiel nicht vorhanden. Tipp nicht gespeichert."
+
+# @ world-cup-predictor
+#: wcp-predict.class.php:333
+msgid "Error saving prediction"
+msgstr "Fehler beim speichern des Tipps"
+
+# @ world-cup-predictor
+#: wcp-predict.class.php:338
+msgid "Some, or all, of your predictions are too late and will not be counted."
+msgstr ""
+"Einige oder alle Tipps sind zu spät abgegeben und werden nicht gewertet"
+
+# @ world-cup-predictor
+#: wcp-predict.class.php:359
+msgid "No data to save"
+msgstr "Keine Daten zum speichern"
+
+# @ world-cup-predictor
+#: wcp-predict.class.php:418 admin/wcp-admin.class.php:168
+#: admin/wcp-admin.class.php:289
+msgid "Next prediction deadline in"
+msgstr "Nächster Tippabgabeschluss"
+
+# @ world-cup-predictor
+#: wcp-predict.class.php:428
+msgid "Too Late - Prediction deadline passed"
+msgstr "Zu spät - Tippabgabeschluss verpasst"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:33 admin/wcp-matches.class.php:236
+#: admin/wcp-matches.class.php:240 admin/wcp-overview.class.php:36
+#: admin/wcp-predictions.class.php:222 admin/wcp-predictions.class.php:226
+#: admin/wcp-results.class.php:76 admin/wcp-results.class.php:80
+msgid "Team"
+msgid_plural "Teams"
+msgstr[0] "Team"
+msgstr[1] "Teams"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:34
+msgid "MP"
+msgstr "S"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:35
+msgid "Matches Played"
+msgstr "Spiele"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:36
+msgid "W"
+msgstr "S"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:37
+msgid "Won"
+msgstr "Siege"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:38
+msgid "D"
+msgstr "U"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:39
+msgid "Draw"
+msgstr "Unentschieden"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:40
+msgid "L"
+msgstr "V"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:41
+msgid "Lost"
+msgstr "Verloren"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:42
+msgid "GF"
+msgstr "TG"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:43
+msgid "Goals For"
+msgstr "Tore geschossen"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:44
+msgid "GA"
+msgstr "GT"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:45
+msgid "Goals Against"
+msgstr "Gegentore"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:46
+msgid "GD"
+msgstr "GD"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:47
+msgid "Goal difference"
+msgstr "Tordifferenz"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:48 wcp-reports.class.php:660 wcp-reports.class.php:814
+#: wcp-reports.class.php:893 wcp-reports.class.php:978
+#: wcp-reports.class.php:1227
+msgid "Pts"
+msgstr "Pkt"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:49 wcp-reports.class.php:660 wcp-reports.class.php:814
+#: wcp-reports.class.php:978 wcp-reports.class.php:1227
+#: admin/wcp-predictions.class.php:141 admin/wcp-predictions.class.php:219
+msgid "Points"
+msgstr "Punkte"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:400 wcp-reports.class.php:418
+msgid "pen."
+msgstr "Elfm."
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:402 wcp-reports.class.php:420
+#: admin/wcp-matches.class.php:177
+msgid "Extra Time"
+msgstr "Verlängerung"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:402 wcp-reports.class.php:420
+msgid "a.e.t."
+msgstr "a.e.t."
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:537 wcp-reports.class.php:683
+#: wcp-reports.class.php:977 wcp-reports.class.php:1096
+#: admin/wcp-admin.class.php:212 admin/wcp-scoring.class.php:46
+msgid "Predictions"
+msgstr "Tippspiel"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:660 admin/wcp-predictions.class.php:120
+#: admin/wcp-predictions.class.php:218
+msgid "User"
+msgstr "Benutzer"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:814 wcp-reports.class.php:893
+#: wcp-reports.class.php:1226 admin/wcp-overview.class.php:48
+msgid "Prediction"
+msgid_plural "Predictions"
+msgstr[0] "Tipp"
+msgstr[1] "Tipps"
+
+#: wcp-reports.class.php:814 wcp-reports.class.php:977
+#: wcp-reports.class.php:1096 wcp-reports.class.php:1226
+msgid "Pred"
+msgstr "Prognose"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:843 wcp-reports.class.php:905
+#: wcp-reports.class.php:1176 wcp-reports.class.php:1267
+msgid "Back"
+msgstr "Zurück"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:971 wcp-reports.class.php:1090
+#: wcp-reports.class.php:1224 admin/wcp-overview.class.php:44
+#: admin/wcp-predictions.class.php:124
+msgid "Match"
+msgid_plural "Matches"
+msgstr[0] "Spiel"
+msgstr[1] "Spiele"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:973 wcp-reports.class.php:1092
+#, fuzzy
+#| msgid "Results only"
+msgid "Results"
+msgstr "Nur Ergebnisse"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:973 wcp-reports.class.php:1092
+#: wcp-reports.class.php:1225 admin/wcp-matches.class.php:235
+msgid "Res"
+msgstr "Res"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:1011 wcp-reports.class.php:1260
+msgid "Total"
+msgstr "Gesamt"
+
+# @ world-cup-predictor
+#: wcp-reports.class.php:1225
+#, fuzzy
+#| msgid "Results only"
+msgid "Result"
+msgstr "Nur Ergebnisse"
+
+# @ world-cup-predictor
+#: wcp-widgets.class.php:20
+#, fuzzy
+#| msgid "Display Leaders of World Cup Predictor"
+msgid "Display Leaders of WCP"
+msgstr "Zeigt den führenden im Tipspiel"
+
+# @ world-cup-predictor
+#: wcp-widgets.class.php:21
+msgid "WCP Top Ranking"
+msgstr "Tipspiel Top Ränge"
+
+# @ world-cup-predictor
+#: wcp-widgets.class.php:84
+msgid "Display Rankings."
+msgstr "Tabelle anzeigen"
+
+# @ world-cup-predictor
+#: wcp-widgets.class.php:85 wcp-widgets.class.php:169 wcp-widgets.class.php:228
+#: wcp-widgets.class.php:280
+msgid "Title:"
+msgstr "Titel"
+
+# @ world-cup-predictor
+#: wcp-widgets.class.php:88
+msgid "Max rankings to show:"
+msgstr "Max. Anzahl zum anzeigen"
+
+# @ world-cup-predictor
+#: wcp-widgets.class.php:91
+msgid "Show Avatars:"
+msgstr "Avatare anzeigen"
+
+# @ world-cup-predictor
+#: wcp-widgets.class.php:94
+msgid "CSS for current user:"
+msgstr "CSS für aktuellen Benutzer"
+
+# @ world-cup-predictor
+#: wcp-widgets.class.php:97
+msgid "Full rankings page URL:"
+msgstr "URL Gesamtübersicht der Tipptabelle"
+
+# @ world-cup-predictor
+#: wcp-widgets.class.php:100
+msgid "Full rankings link name:"
+msgstr "Gesamtübersicht Linkname"
+
+# @ world-cup-predictor
+#: wcp-widgets.class.php:112
+#, fuzzy
+#| msgid "Display User Predictions of World Cup"
+msgid "Display User Predictions of WCP"
+msgstr "Zeigt die Benutzertips vom Tipspiel"
+
+# @ world-cup-predictor
+#: wcp-widgets.class.php:113
+msgid "WCP User Predictions"
+msgstr "WCP Benutzertips"
+
+# @ world-cup-predictor
+#: wcp-widgets.class.php:168
+msgid "Display User Predictions."
+msgstr "Benutzer-Tipps anzeigen."
+
+#: wcp-widgets.class.php:172
+msgid "My predictions page URL:"
+msgstr ""
+
+#: wcp-widgets.class.php:175
+msgid "My predictions link name:"
+msgstr ""
+
+# @ world-cup-predictor
+#: wcp-widgets.class.php:178
+msgid "Show Results:"
+msgstr "Zeige Ergebnisse"
+
+# @ world-cup-predictor
+#: wcp-widgets.class.php:190
+#, fuzzy
+#| msgid "Display Championship Standings."
+msgid "Display Championship Standings"
+msgstr "Zeigt Weltmeisterschaftsstände"
+
+# @ world-cup-predictor
+#: wcp-widgets.class.php:191
+msgid "WCP Standings"
+msgstr "WCP Stände"
+
+# @ world-cup-predictor
+#: wcp-widgets.class.php:227
+msgid "Display Championship Standings."
+msgstr "Zeigt Weltmeisterschaftsstände"
+
+#: wcp-widgets.class.php:240
+msgid "Show the total points of current user"
+msgstr ""
+
+#: wcp-widgets.class.php:241
+msgid "WCP My Points"
+msgstr ""
+
+#: wcp-widgets.class.php:256
+#, php-format
+msgid "You currently have %d points"
+msgstr ""
+
+#: wcp-widgets.class.php:279
+msgid "Show Total Points."
+msgstr ""
+
+#: admin/wcp-admin.class.php:186
+msgid "Plugin successfully activated"
+msgstr ""
+
+# @ world-cup-predictor
+#: admin/wcp-admin.class.php:209
+msgid "WCP Menu"
+msgstr "World Cup Menü"
+
+# @ world-cup-predictor
+#: admin/wcp-admin.class.php:209
+msgid "WCP Cup"
+msgstr "WCP Cup"
+
+# @ world-cup-predictor
+#: admin/wcp-admin.class.php:210
+msgid "Overview"
+msgstr "Übersicht"
+
+# @ world-cup-predictor
+#: admin/wcp-admin.class.php:211
+msgid "Teams and Matches"
+msgstr "Teams und Spiele"
+
+# @ world-cup-predictor
+#: admin/wcp-admin.class.php:213
+msgid "Help"
+msgstr "Hilfe"
+
+# @ world-cup-predictor
+#: admin/wcp-admin.class.php:267
+msgid "Are you enjoying this plugin?  Please consider donating."
+msgstr ""
+"DIr gefällt der World Cup Predictor? Hilf uns mit einer kleinen Spende!"
+
+# @ world-cup-predictor
+#: admin/wcp-admin.class.php:276
+msgid "Already donated"
+msgstr "Bereits gespendet"
+
+# @ world-cup-predictor
+#: admin/wcp-admin.class.php:288
+msgid "Countdown clock format"
+msgstr "Countdown Zeitformat"
+
+# @ world-cup-predictor
+#: admin/wcp-admin.class.php:292
+msgid ""
+"Convert kickoff times to local timezone. If unchecked kickoff times are "
+"displayed as match local time"
+msgstr "Anstoßdatum automatisch übersetzen"
+
+# @ world-cup-predictor
+#: admin/wcp-admin.class.php:296
+msgid "Show users predictions before kickoff"
+msgstr "Anzeigen der Tips vor dem Anstoß"
+
+#: admin/wcp-admin.class.php:300
+msgid "Separator used in scores of matches"
+msgstr "Separator in Partituren der Spiele verwendet"
+
+# @ world-cup-predictor
+#: admin/wcp-admin.class.php:304
+msgid "Page Predictions by Match"
+msgstr "Tips per Spiel"
+
+# @ world-cup-predictor
+#: admin/wcp-admin.class.php:306 admin/wcp-admin.class.php:326
+msgid "Choose Page"
+msgstr "Wähle eine Seite"
+
+# @ world-cup-predictor
+#: admin/wcp-admin.class.php:324
+msgid "Page Predictions of User"
+msgstr "Tips per Benutzer"
+
+# @ world-cup-predictor
+#: admin/wcp-admin.class.php:345
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:70 admin/wcp-matches.class.php:121
+#: admin/wcp-predictions.class.php:61 admin/wcp-predictions.class.php:79
+#: admin/wcp-predictions.class.php:102 admin/wcp-scoring.class.php:95
+#: admin/wcp-stages.class.php:52 admin/wcp-stages.class.php:71
+#: admin/wcp-stages.class.php:95 admin/wcp-teams.class.php:54
+#: admin/wcp-teams.class.php:74 admin/wcp-teams.class.php:97
+#: admin/wcp-venues.class.php:53 admin/wcp-venues.class.php:72
+#: admin/wcp-venues.class.php:95
+msgid "Changes saved"
+msgstr "Änderungen gespeichert"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:98
+msgid "Changes saved and prediction points updated"
+msgstr "Änderungen gespeichert und Tippunkte aktualisiert"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:128
+msgid "Manage matches"
+msgstr "Spiele verwalten"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:130
+msgid ""
+"Once the match has finished edit the match, enter the score and check "
+"\"Match Finished\"."
+msgstr ""
+"Sobald das Spiel beendet ist, bearbeite das Spiel und setze die Markierung "
+"bei \"Spiel beendet\"."
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:141
+msgid "Match#"
+msgstr "Spiel#"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:145 admin/wcp-matches.class.php:232
+#: admin/wcp-overview.class.php:40
+msgid "Venue"
+msgid_plural "Venues"
+msgstr[0] "Austragungsort"
+msgstr[1] "Austragungsorte"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:147
+msgid "Select Venue"
+msgstr "Austragungsort auswählen"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:150 admin/wcp-matches.class.php:233
+#: admin/wcp-predictions.class.php:221 admin/wcp-results.class.php:74
+msgid "Stage"
+msgstr "Runde"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:152
+msgid "Select Stage"
+msgstr "Runde auswählen"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:155
+msgid "Kickoff date time (Must be UTC)"
+msgstr "Anstoßzeit Muss UTC sein"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:159
+msgid "Team A"
+msgstr "Team A"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:161 admin/wcp-matches.class.php:170
+msgid "Select Team"
+msgstr "Team auswählen"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:162 admin/wcp-predictions.class.php:129
+msgid "Goals A"
+msgstr "Tore A"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:164 admin/wcp-predictions.class.php:131
+msgid "Penalties A"
+msgstr "Elfmeter A"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:168
+msgid "Team B"
+msgstr "Team B"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:171 admin/wcp-predictions.class.php:135
+msgid "Goals B"
+msgstr "Tore B"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:173 admin/wcp-predictions.class.php:137
+msgid "Penalties B"
+msgstr "Elfmeter B"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:181
+msgid "Match finished"
+msgstr "Spiel beendet"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:190
+msgid "Modify Match"
+msgstr "Spiel speichern"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:191 admin/wcp-predictions.class.php:164
+#: admin/wcp-stages.class.php:128 admin/wcp-teams.class.php:136
+#: admin/wcp-venues.class.php:134
+msgid "Cancel"
+msgstr "Abbrechen"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:197
+msgid "Add Match"
+msgstr "Spiel hinzufügen"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:229 admin/wcp-predictions.class.php:216
+#: admin/wcp-stages.class.php:155 admin/wcp-teams.class.php:166
+#: admin/wcp-venues.class.php:164
+msgid "Del"
+msgstr "Del"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:230 admin/wcp-predictions.class.php:217
+#: admin/wcp-results.class.php:72 admin/wcp-stages.class.php:156
+#: admin/wcp-teams.class.php:167 admin/wcp-venues.class.php:165
+msgid "ID"
+msgstr "ID"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:231 admin/wcp-predictions.class.php:220
+#: admin/wcp-results.class.php:73
+msgid "#"
+msgstr "#"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:234 admin/wcp-results.class.php:75
+msgid "Kickoff"
+msgstr "Anstoß"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:237 admin/wcp-predictions.class.php:223
+#: admin/wcp-results.class.php:77
+msgid "A"
+msgstr "A"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:239 admin/wcp-predictions.class.php:225
+#: admin/wcp-results.class.php:79
+msgid "B"
+msgstr "B"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:241
+msgid "E.T."
+msgstr "n.V."
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:242 admin/wcp-predictions.class.php:227
+#: admin/wcp-results.class.php:81 admin/wcp-stages.class.php:160
+#: admin/wcp-teams.class.php:173 admin/wcp-venues.class.php:170
+msgid "Last Modified"
+msgstr "zuletzt geändert"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:251
+msgid "Modify this match"
+msgstr "Dieses Spiel ändern"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:280 admin/wcp-predictions.class.php:271
+#: admin/wcp-stages.class.php:181 admin/wcp-teams.class.php:196
+#: admin/wcp-venues.class.php:192
+msgid "Delete Selected"
+msgstr "markierte Löschen"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:293
+msgid "Match#, and goals must be numeric"
+msgstr "Spiel#. und Tore muss eine Zahl sein"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:298 admin/wcp-predictions.class.php:301
+msgid "Penalties must be numeric"
+msgstr "Elfmeter muss eine Zahl sein"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:303
+msgid "Select two different teams"
+msgstr "Zwei verschiedene Teams auswählen"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:308
+msgid "Select a venue and stage"
+msgstr "Wähle einen Austragungsort und eine Runde"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:313
+msgid "Kickoff must be valid YYYY-MM-DD HH:MM:SS date time format."
+msgstr "Spielbeginn muss im richtigen Format YYYY-MM-DD HH:MM:SS sein"
+
+# @ world-cup-predictor
+#: admin/wcp-matches.class.php:410
+msgid "Can not delete a match with predictions"
+msgstr "Spiele die bereits getippt sind, können nicht gelöscht werden!"
+
+# @ world-cup-predictor
+#: admin/wcp-menu.class.php:23 admin/wcp-overview.class.php:72
+msgid "WCP Manager"
+msgstr "World Cup Verwaltung"
+
+# @ world-cup-predictor
+#: admin/wcp-menu.class.php:28
+msgid "Teams"
+msgstr "Teams"
+
+# @ world-cup-predictor
+#: admin/wcp-menu.class.php:29
+msgid "Venues"
+msgstr "Austragungsorte"
+
+# @ world-cup-predictor
+#: admin/wcp-menu.class.php:30
+msgid "Stages"
+msgstr "Runden"
+
+# @ world-cup-predictor
+#: admin/wcp-menu.class.php:31
+msgid "Matches"
+msgstr "Spiele"
+
+# @ world-cup-predictor
+#: admin/wcp-menu.class.php:32 admin/wcp-menu.class.php:67
+msgid "Group Results"
+msgstr "Ergebnisse Gruppen"
+
+# @ world-cup-predictor
+#: admin/wcp-overview.class.php:30
+msgid "At a Glance"
+msgstr "Auf einen Blick"
+
+# @ world-cup-predictor
+#: admin/wcp-overview.class.php:54
+msgid "Here you can import your teams, venues and match schedules."
+msgstr ""
+"Hier können die Teams, Austragungsorte und der Spielplan importiert werden"
+
+#: admin/wcp-overview.class.php:58
+msgid "Championship"
+msgstr ""
+
+#: admin/wcp-overview.class.php:60
+msgid "Confederations Cup 2017"
+msgstr ""
+
+#: admin/wcp-overview.class.php:61
+msgid "Euro 2016"
+msgstr ""
+
+#: admin/wcp-overview.class.php:62
+msgid "World Cup 2014"
+msgstr ""
+
+# @ world-cup-predictor
+#: admin/wcp-overview.class.php:66
+msgid "Import"
+msgstr "Import"
+
+# @ world-cup-predictor
+#: admin/wcp-overview.class.php:72
+msgid "no"
+msgstr "Nein"
+
+# @ world-cup-predictor
+#: admin/wcp-overview.class.php:73
+#, php-format
+msgid "You currently have %s rights."
+msgstr "Du hast im Moment %s Rechte"
+
+# @ world-cup-predictor
+#: admin/wcp-overview.class.php:99
+#, php-format
+msgid ""
+"Newsfeed could not be loaded.  Check the <a href=\"%s\">front page</a> to "
+"check for updates."
+msgstr ""
+"News-Feed kann nicht geladen werden. Besuchen Sie die <a href=\"%s"
+"\">Startseite für Neuigkeiten"
+
+# @ world-cup-predictor
+#: admin/wcp-overview.class.php:131
+msgid "Thank you to all donators..."
+msgstr "Vielen Dank an alle Spender"
+
+# @ world-cup-predictor
+#: admin/wcp-overview.class.php:158
+msgid "Not set"
+msgstr "Nicht gesetzt"
+
+# @ world-cup-predictor
+#: admin/wcp-overview.class.php:160
+msgid "On"
+msgstr "An"
+
+# @ world-cup-predictor
+#: admin/wcp-overview.class.php:161
+msgid "Off"
+msgstr "Aus"
+
+# @ world-cup-predictor
+#: admin/wcp-overview.class.php:164
+msgid "Operating System"
+msgstr "Betriebssystem"
+
+# @ world-cup-predictor
+#: admin/wcp-overview.class.php:165
+msgid "Server"
+msgstr "Server"
+
+# @ world-cup-predictor
+#: admin/wcp-overview.class.php:166
+msgid "MYSQL Version"
+msgstr "MySQL-Version"
+
+# @ world-cup-predictor
+#: admin/wcp-overview.class.php:167
+msgid "SQL Mode"
+msgstr "SQL Modus"
+
+# @ world-cup-predictor
+#: admin/wcp-overview.class.php:168
+msgid "PHP Version"
+msgstr "PHP Version"
+
+# @ world-cup-predictor
+#: admin/wcp-overview.class.php:169
+msgid "PHP Safe Mode"
+msgstr "PHP Safe Mode"
+
+#: admin/wcp-overview.class.php:192
+msgid "Support Forum"
+msgstr "Support Forum"
+
+# @ world-cup-predictor
+#: admin/wcp-overview.class.php:201
+msgid "Welcome to World Cup Predictor V "
+msgstr "Willkommen zu World Cup Predictor V"
+
+# @ world-cup-predictor
+#: admin/wcp-overview.class.php:202
+msgid "Latest News"
+msgstr "Aktuelle Neuigkeiten"
+
+# @ world-cup-predictor
+#: admin/wcp-overview.class.php:203
+msgid "Recent donators"
+msgstr "Aktuelle Spender"
+
+# @ world-cup-predictor
+#: admin/wcp-overview.class.php:204
+msgid "Server Settings"
+msgstr "Server Einstellungen"
+
+# @ world-cup-predictor
+#: admin/wcp-overview.class.php:205
+msgid "Settings"
+msgstr "Einstellungen"
+
+# @ world-cup-predictor
+#: admin/wcp-overview.class.php:206
+msgid "Support"
+msgstr "Support"
+
+# @ world-cup-predictor
+#: admin/wcp-overview.class.php:213
+msgid "World Cup Predictor Overview"
+msgstr "World Cup Predictor Übersicht"
+
+# @ world-cup-predictor
+#: admin/wcp-predictions.class.php:109
+msgid "Manage predictions"
+msgstr "Tipps verwalten"
+
+# @ world-cup-predictor
+#: admin/wcp-predictions.class.php:111
+msgid ""
+"For a manually entered prediction the prediction time must be before the "
+"kickoff time."
+msgstr "Für die manuelle Tipeingabe muss die Tipzeit vor der Anstoßzeit liegen"
+
+# @ world-cup-predictor
+#: admin/wcp-predictions.class.php:121
+msgid "Select user"
+msgstr "Benutzer auswählen"
+
+# @ world-cup-predictor
+#: admin/wcp-predictions.class.php:126
+msgid "Select match"
+msgstr "Spiel auswählen"
+
+# @ world-cup-predictor
+#: admin/wcp-predictions.class.php:145
+msgid "Prediction time"
+msgstr "Tipp-Zeit"
+
+# @ world-cup-predictor
+#: admin/wcp-predictions.class.php:150 admin/wcp-scoring.class.php:183
+msgid "All Users"
+msgstr "Alle Benutzer"
+
+# @ world-cup-predictor
+#: admin/wcp-predictions.class.php:152
+msgid "All Stages"
+msgstr "Alle Runden"
+
+# @ world-cup-predictor
+#: admin/wcp-predictions.class.php:154
+msgid "All Teams"
+msgstr "Alle Teams"
+
+# @ world-cup-predictor
+#: admin/wcp-predictions.class.php:156 admin/wcp-scoring.class.php:184
+msgid "Filter"
+msgstr "Filter"
+
+# @ world-cup-predictor
+#: admin/wcp-predictions.class.php:163
+msgid "Modify Prediction"
+msgstr "Tipp speichern"
+
+# @ world-cup-predictor
+#: admin/wcp-predictions.class.php:169
+msgid "Add Prediction"
+msgstr "Tipp hinzufügen"
+
+# @ world-cup-predictor
+#: admin/wcp-predictions.class.php:208
+msgid "All times are UTC"
+msgstr "Alle Zeiten sind UTC"
+
+# @ world-cup-predictor
+#: admin/wcp-predictions.class.php:239
+msgid "Modify this prediction"
+msgstr "Diesen Tipp bearbeiten"
+
+# @ world-cup-predictor
+#: admin/wcp-predictions.class.php:282
+msgid "All Matches"
+msgstr "Alle Spiele"
+
+# @ world-cup-predictor
+#: admin/wcp-predictions.class.php:283
+msgid "Results only"
+msgstr "Nur Ergebnisse"
+
+# @ world-cup-predictor
+#: admin/wcp-predictions.class.php:284
+msgid "Pending matches only"
+msgstr "Nur ausstehende Spiele"
+
+# @ world-cup-predictor
+#: admin/wcp-predictions.class.php:296
+msgid "Goals and points must be numeric"
+msgstr "Tore und Punkte muss eine Zahl sein"
+
+# @ world-cup-predictor
+#: admin/wcp-predictions.class.php:306
+msgid "Select a user and match"
+msgstr "Einen Benutzer und ein Spiel auswählen"
+
+# @ world-cup-predictor
+#: admin/wcp-predictions.class.php:311
+msgid "Prediction time must be valid YYYY-MM-DD HH:MM:SS date time format."
+msgstr "Tippzeit muss im richtigen Format (YYYY-MM-DD HH:MM:SS) sein"
+
+# @ world-cup-predictor
+#: admin/wcp-results.class.php:32
+msgid "Prediction points updated."
+msgstr "Tipp Punkte aktualisiert"
+
+# @ world-cup-predictor
+#: admin/wcp-results.class.php:37
+msgid "Assign prediction scores for completed matches"
+msgstr "Zuweisen der Tipp Punkte für alle beendeten Spiele"
+
+# @ world-cup-predictor
+#: admin/wcp-results.class.php:39
+msgid "Select each newly completed match to assign users' scores."
+msgstr ""
+"Wählen Sie jedes neu beendete Spiel aus um die Tipp-Punkte für die Benutzer "
+"zuzuweisen"
+
+# @ world-cup-predictor
+#: admin/wcp-results.class.php:39
+msgid "Enter Match Results"
+msgstr "Spielergebnisse eintragen"
+
+# @ world-cup-predictor
+#: admin/wcp-results.class.php:41
+#, php-format
+msgid ""
+"Matches marked with a green tick (%s) are finished and have been scored."
+msgstr "Spiele mit einem grünem Haken (%s) sind beendet und wurden gewertet."
+
+# @ world-cup-predictor
+#: admin/wcp-results.class.php:71
+msgid "Sel"
+msgstr "Sel"
+
+# @ world-cup-predictor
+#: admin/wcp-results.class.php:119
+msgid "Score Selected"
+msgstr "Punkte berechnen"
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:41
+msgid "WCP Manager Predictions"
+msgstr "World Cup Manger Tipps"
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:47
+msgid "Score Matches"
+msgstr "Punkte berechnen"
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:48
+msgid "Users Ranking"
+msgstr "Benutzer Tabelle"
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:49
+msgid "Configure Scoring"
+msgstr "Punkte konfigurieren"
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:88
+msgid "Points must be numeric"
+msgstr "Punkte muss eine Zahl sein"
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:100
+msgid "This includes the penalties in the knockout stage if applicable"
+msgstr "Dies beinhaltet auch das Elfmeterschießen in der Finalrunde."
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:104
+msgid "Setup points allocation"
+msgstr "Setup Punkteverteilung"
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:113
+msgid "Points for correct score"
+msgstr "Punkte für richtiges Ergebnis"
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:115
+#, php-format
+msgid "For example predict 3-0 and the result is 3-0 award %d points"
+msgstr "Zum Beispiel getippt 3-0 und das ist Ergebnis 3-0, bekommt %d Punkte"
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:118
+msgid "Points for guessing a draw"
+msgstr "Punkte für richtiges Unentschieden"
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:120
+#, php-format
+msgid "For example predict 2-2 and the result is 1-1 award %d points"
+msgstr "Zum Beispiel getippt 2-2 und das Ergebnis ist 1-1 bekommt %d Punkte"
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:123
+msgid "Wrong score but predicted the correct winner"
+msgstr "Falsches Ergebnis aber richtiger Sieger"
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:125
+#, php-format
+msgid "For example predict 1-0 and the result is 2-0 award %d points"
+msgstr "Zum Beispiel getippt 1-0 und das Ergebnis ist 2-0 bekommt %d Punkte"
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:128
+#, php-format
+msgid ""
+"Points above are not cummulative, for example predict 2-2 and the result is "
+"2-2, you gain %d\n"
+"\t\t\tpoints, NOT %d points"
+msgstr ""
+"Punkte sind nicht kommulativ, zum Beispiel 2-2 getippt und das Ergebnis ist "
+"2-2 bekommt man %d\n"
+"\\\t\\\t\\ Punkte. Nicht %d Punkte"
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:131
+msgid "Bonus points"
+msgstr "Bonus Punkte"
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:134
+msgid "Points for correct number of goals"
+msgstr "Punkte für die richtige Toranzahl"
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:136
+#, php-format
+msgid "For example predict 3-0 and the result is 3-1 award extra %d points"
+msgstr ""
+"Zum Beispiel getippt 3-0 und das Ergebnis ist 3-1 bekommt %d Bonuspunkt(e)"
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:139
+msgid "Points for correct goal difference"
+msgstr "Punkte für richtiges Torverhältnis"
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:141
+#, php-format
+msgid "For example predict 5-3 and the result is 3-1 award extra %d points"
+msgstr ""
+"Zum Beispiel: getippt wurde 5:3 und das Ergebnis ist 3:1, bekommt  %d "
+"Bonuspunkt(e) für das richtige Torverhältnis."
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:144
+msgid "Bonus points are cummulative"
+msgstr "Bonuspunkte sind kommulativ"
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:173
+msgid "Ranking and Scores"
+msgstr "Tabelle und Punkte"
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:179
+msgid "Select Match Result"
+msgstr "Spielergebnis auswählen"
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:180
+msgid "Select"
+msgstr "Auswählen"
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:188
+msgid "User Points"
+msgstr "Benutzer Punkte"
+
+# @ world-cup-predictor
+#: admin/wcp-scoring.class.php:193
+msgid "Ranking"
+msgstr "Tabelle"
+
+# @ world-cup-predictor
+#: admin/wcp-stages.class.php:102
+msgid "Manage stages"
+msgstr "Runden verwalten"
+
+# @ world-cup-predictor
+#: admin/wcp-stages.class.php:111 admin/wcp-stages.class.php:157
+msgid "Stage Name"
+msgstr "Runde Name"
+
+# @ world-cup-predictor
+#: admin/wcp-stages.class.php:115 admin/wcp-stages.class.php:158
+msgid "Group Stage"
+msgstr "Gruppenphase"
+
+# @ world-cup-predictor
+#: admin/wcp-stages.class.php:119 admin/wcp-stages.class.php:159
+msgid "Sort Order"
+msgstr "Sortierung Reihenfolge"
+
+# @ world-cup-predictor
+#: admin/wcp-stages.class.php:127
+msgid "Modify Stage"
+msgstr "Runde speichern"
+
+# @ world-cup-predictor
+#: admin/wcp-stages.class.php:133
+msgid "Add Stage"
+msgstr "Runde hinzufügen"
+
+# @ world-cup-predictor
+#: admin/wcp-stages.class.php:169
+msgid "Modify this stage"
+msgstr "Diese Runde bearbeiten"
+
+# @ world-cup-predictor
+#: admin/wcp-stages.class.php:194
+msgid "Stage Name can not be empty"
+msgstr "Rundenname darf nicht leer sein"
+
+# @ world-cup-predictor
+#: admin/wcp-stages.class.php:198
+msgid "Sort order must be numeric"
+msgstr "Sortierreihenfolge muss eine Zahl sein"
+
+# @ world-cup-predictor
+#: admin/wcp-stages.class.php:284
+msgid "Can not delete a stage with matches"
+msgstr "Runden mit beendeten Spielen können nicht gelöscht werden"
+
+# @ world-cup-predictor
+#: admin/wcp-teams.class.php:104
+msgid "Manage teams"
+msgstr "Teams verwalten"
+
+# @ world-cup-predictor
+#: admin/wcp-teams.class.php:115 admin/wcp-teams.class.php:168
+msgid "Team Name"
+msgstr "Teamname"
+
+# @ world-cup-predictor
+#: admin/wcp-teams.class.php:119 admin/wcp-teams.class.php:170
+msgid "Country Code"
+msgstr "Länder-Code"
+
+# @ world-cup-predictor
+#: admin/wcp-teams.class.php:123 admin/wcp-teams.class.php:171
+msgid "Team URL"
+msgstr "Webseite"
+
+# @ world-cup-predictor
+#: admin/wcp-teams.class.php:127 admin/wcp-teams.class.php:172
+msgid "Group Order"
+msgstr "Gruppen-Sortierung"
+
+# @ world-cup-predictor
+#: admin/wcp-teams.class.php:135
+msgid "Modify Team"
+msgstr "Team speichern"
+
+# @ world-cup-predictor
+#: admin/wcp-teams.class.php:141
+msgid "Add Team"
+msgstr "Team hinzufügen"
+
+# @ world-cup-predictor
+#: admin/wcp-teams.class.php:169
+msgid "Flag"
+msgstr "Flagge"
+
+# @ world-cup-predictor
+#: admin/wcp-teams.class.php:182
+msgid "Modify this team"
+msgstr "Dieses Team ändern"
+
+# @ world-cup-predictor
+#: admin/wcp-teams.class.php:209
+msgid "Team Name or Country Code can not be empty"
+msgstr "Teamname oder Länder-Code darf nicht leer sein"
+
+# @ world-cup-predictor
+#: admin/wcp-teams.class.php:214
+msgid "Group Order must be numeric"
+msgstr "Gruppensortierung muss eine Zahl sein!"
+
+# @ world-cup-predictor
+#: admin/wcp-teams.class.php:302
+msgid "Can not delete a team with matches"
+msgstr "Mannschaften mit beendeten Spielen können nicht gelöscht werden"
+
+# @ world-cup-predictor
+#: admin/wcp-venues.class.php:102
+msgid "Manage venues"
+msgstr "Spielorte verwalten"
+
+# @ world-cup-predictor
+#: admin/wcp-venues.class.php:113 admin/wcp-venues.class.php:166
+msgid "Venue Name"
+msgstr "Austragungsort-Name"
+
+# @ world-cup-predictor
+#: admin/wcp-venues.class.php:117 admin/wcp-venues.class.php:167
+msgid "Venue URL"
+msgstr "Austragungsort Webseite"
+
+# @ world-cup-predictor
+#: admin/wcp-venues.class.php:121 admin/wcp-venues.class.php:168
+msgid "Stadium"
+msgstr "Stadion"
+
+# @ world-cup-predictor
+#: admin/wcp-venues.class.php:125
+msgid "UTC Offset in hours"
+msgstr "UTC Zeitunterschied in Stunden"
+
+# @ world-cup-predictor
+#: admin/wcp-venues.class.php:133
+msgid "Modify Venue"
+msgstr "Austragungsort speichern"
+
+# @ world-cup-predictor
+#: admin/wcp-venues.class.php:139
+msgid "Add Venue"
+msgstr "Austragungsort hinzufügen"
+
+# @ world-cup-predictor
+#: admin/wcp-venues.class.php:169
+msgid "UTC+"
+msgstr "UTC+"
+
+# @ world-cup-predictor
+#: admin/wcp-venues.class.php:179
+msgid "Modify this venue"
+msgstr "Diesen Austragungsort bearbeiten"
+
+# @ world-cup-predictor
+#: admin/wcp-venues.class.php:205
+msgid "Venue Name or Stadium can not be empty"
+msgstr "Name des Austragungsort oder Stadion müssen ausgefüllt werden"
+
+# @ world-cup-predictor
+#: admin/wcp-venues.class.php:210
+msgid "UTC Offset must be numeric"
+msgstr "UTC Zeitunterschied muss eine Zahl sein"
+
+# @ world-cup-predictor
+#: admin/wcp-venues.class.php:298
+msgid "Can not delete a venue with matches"
+msgstr "Veranstaltungsorte mit beenden Spielen können nicht gelöscht werden!"
+
+# @ world-cup-predictor
+#: admin/champs/euro-2016.php:139 admin/champs/wcup-2014.php:167
+msgid "Match data imported"
+msgstr "Spieldaten importiert"
+
+
+#: admin/wcp-overview.class.php:61
+msgid "Here you can create predictions pages, group tables and rankings automatically."
+msgstr ""
+
+#: admin/wcp-overview.class.php:65
+msgid "Create Pages"
+msgstr ""
+
+#: admin/wcp-overview.class.php:79
+msgid "Champions League 2019/2020"
+msgstr ""
+
+#: admin/wcp-overview.class.php:240
+msgid "Predictions by Match"
+msgstr ""
+
+#: admin/wcp-overview.class.php:246
+msgid "Predictions of User"
+msgstr ""
+
+#: admin/wcp-overview.class.php:258
+msgid "Group Tables"
+msgstr ""
+
+# @ world-cup-predictor
+#~ msgid "Link to Authors site in footer"
+#~ msgstr "Link zu den Autoren im Footer anzeigen"
+
+# @ world-cup-predictor
+#~ msgid "Knockout Results"
+#~ msgstr "Ergebnisse Finalrunde"
+
+# @ world-cup-predictor
+#~ msgid "Donate"
+#~ msgstr "Spenden"
+
+# @ world-cup-predictor
+#~ msgid "Name"
+#~ msgstr "Name"
+
+# @ world-cup-predictor
+#~ msgid "Group"
+#~ msgstr "Gruppe"
+
+# @ world-cup-predictor
+#~ msgid "Sort"
+#~ msgstr "Art"
+
+# @ world-cup-predictor
+#~ msgid "shootout"
+#~ msgstr "Elfmeterschießen"
+
+# @ world-cup-predictor
+#~ msgid "vs"
+#~ msgstr "vs"
+
+# @ world-cup-predictor
+#~ msgid "Show Total:"
+#~ msgstr "Zeige Gesamt"
+
+# @ world-cup-predictor
+#~ msgid "Adjust Knockout Table to the theme Twenty Fourteen"
+#~ msgstr "Anpassungen der KO Runde für das Theme Twenty Fourteen"
+
+# @ world-cup-predictor
+#~ msgid "Display Standings of World Cup"
+#~ msgstr "Zeigt die Stände der Weltmeisterschaft"

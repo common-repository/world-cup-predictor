@@ -1,0 +1,1233 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: World Cup Predictor 1.2 Arabic\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/world-cup-predictor\n"
+"POT-Creation-Date: 2017-04-28 16:18-0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Landoweb Programador <contato@landoweb.com.br>\n"
+"Language-Team: Mickey Mouse <modarsoos@yahoo.com>\n"
+"Language: ar_SY\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 2.0.1\n"
+
+#: wcp-predict.class.php:50
+#, php-format
+msgid ""
+"Please <a href=\"%1$s\">login</a> or <a href=\"%2$s\">register</a> to make a "
+"prediction"
+msgstr ""
+"يرجى تسجيل الدخول <a href=\"%1$s\"> </ a> أو <a href=\"%2$s\"> تسجيل </ a> "
+"لجعل التنبؤ"
+
+#: wcp-predict.class.php:105 wcp-predict.class.php:436
+msgid "No matches available in this championship."
+msgstr "لا يوجد مباريات متوفرة في هذه البطولة."
+
+#: wcp-predict.class.php:108 admin/wcp-scoring.class.php:146
+msgid "Save"
+msgstr "حفظ"
+
+#: wcp-predict.class.php:147 wcp-reports.class.php:400
+#: wcp-reports.class.php:418
+msgid "Penalties"
+msgstr "ركلات الترجيح"
+
+#: wcp-predict.class.php:221
+msgid "Prediction saved"
+msgstr "تم حفظ التوقع"
+
+#: wcp-predict.class.php:235 wcp-predict.class.php:244
+#: wcp-predict.class.php:253 wcp-predict.class.php:265
+msgid "Match score must be numeric"
+msgstr "يجب ترقيم نتيجة المباراة"
+
+#: wcp-predict.class.php:273
+msgid "You can only enter penalties for a draw"
+msgstr "يمكنك إدخال ضربات الجزاء في حال التعادل فقط"
+
+#: wcp-predict.class.php:302
+msgid "Missing match. Prediction not saved."
+msgstr "مباراة مفقودة. لم يتم حفظ التوقع."
+
+#: wcp-predict.class.php:333
+msgid "Error saving prediction"
+msgstr "حدث خطأ في حفظ التوقع"
+
+#: wcp-predict.class.php:338
+msgid "Some, or all, of your predictions are too late and will not be counted."
+msgstr "بعض توقعاتك أو جميعها متأخرة كثيراً ولم يتم احتسابها."
+
+#: wcp-predict.class.php:359
+msgid "No data to save"
+msgstr "لا يوجد بيانات للحفظ"
+
+#: wcp-predict.class.php:418 admin/wcp-admin.class.php:168
+#: admin/wcp-admin.class.php:289
+msgid "Next prediction deadline in"
+msgstr "الموعد النهائي للتوقع المقبل سيكون بعد:"
+
+#: wcp-predict.class.php:428
+msgid "Too Late - Prediction deadline passed"
+msgstr "أنت متأخر جداً - تم مرور الموعد النهائي للتوقع"
+
+#: wcp-reports.class.php:33 admin/wcp-matches.class.php:236
+#: admin/wcp-matches.class.php:240 admin/wcp-overview.class.php:36
+#: admin/wcp-predictions.class.php:222 admin/wcp-predictions.class.php:226
+#: admin/wcp-results.class.php:76 admin/wcp-results.class.php:80
+msgid "Team"
+msgid_plural "Teams"
+msgstr[0] "فريق"
+msgstr[1] "فريق"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: wcp-reports.class.php:34
+msgid "MP"
+msgstr "ل"
+
+#: wcp-reports.class.php:35
+msgid "Matches Played"
+msgstr "عدد المباريات التي لعبها الفريق"
+
+#: wcp-reports.class.php:36
+msgid "W"
+msgstr "ف"
+
+#: wcp-reports.class.php:37
+msgid "Won"
+msgstr "عدد المباريات التي فاز بها الفريق"
+
+#: wcp-reports.class.php:38
+msgid "D"
+msgstr "ت"
+
+#: wcp-reports.class.php:39
+msgid "Draw"
+msgstr "عدد المباريات التي التعادل بها الفريق"
+
+#: wcp-reports.class.php:40
+msgid "L"
+msgstr "خ"
+
+#: wcp-reports.class.php:41
+msgid "Lost"
+msgstr "عدد المباريات التي خسر فيها الفريق"
+
+#: wcp-reports.class.php:42
+msgid "GF"
+msgstr "له"
+
+#: wcp-reports.class.php:43
+msgid "Goals For"
+msgstr "عدد الأهداف التي حققها الفريق"
+
+#: wcp-reports.class.php:44
+msgid "GA"
+msgstr "عليه"
+
+#: wcp-reports.class.php:45
+msgid "Goals Against"
+msgstr "عدد الأهداف التي دخلت مرمى الفريق"
+
+#: wcp-reports.class.php:46
+#, fuzzy
+#| msgid "D"
+msgid "GD"
+msgstr "ت"
+
+#: wcp-reports.class.php:47
+#, fuzzy
+#| msgid "Calculated Difference"
+msgid "Goal difference"
+msgstr "تغيير الوقت"
+
+#: wcp-reports.class.php:48 wcp-reports.class.php:660 wcp-reports.class.php:814
+#: wcp-reports.class.php:893 wcp-reports.class.php:978
+#: wcp-reports.class.php:1227
+msgid "Pts"
+msgstr "النقاط"
+
+#: wcp-reports.class.php:49 wcp-reports.class.php:660 wcp-reports.class.php:814
+#: wcp-reports.class.php:978 wcp-reports.class.php:1227
+#: admin/wcp-predictions.class.php:141 admin/wcp-predictions.class.php:219
+msgid "Points"
+msgstr "النقاط"
+
+#: wcp-reports.class.php:400 wcp-reports.class.php:418
+msgid "pen."
+msgstr "ركلات الترجيح"
+
+#: wcp-reports.class.php:402 wcp-reports.class.php:420
+#: admin/wcp-matches.class.php:177
+msgid "Extra Time"
+msgstr "الوقت الإضافي"
+
+#: wcp-reports.class.php:402 wcp-reports.class.php:420
+msgid "a.e.t."
+msgstr "الوقت المستقطع بعد الشوط الإضافي"
+
+#: wcp-reports.class.php:537 wcp-reports.class.php:683
+#: wcp-reports.class.php:977 wcp-reports.class.php:1096
+#: admin/wcp-admin.class.php:212 admin/wcp-scoring.class.php:46
+msgid "Predictions"
+msgstr "التوقعات"
+
+#: wcp-reports.class.php:660 admin/wcp-predictions.class.php:120
+#: admin/wcp-predictions.class.php:218
+msgid "User"
+msgstr "المستخدم"
+
+#: wcp-reports.class.php:814 wcp-reports.class.php:893
+#: wcp-reports.class.php:1226 admin/wcp-overview.class.php:48
+msgid "Prediction"
+msgid_plural "Predictions"
+msgstr[0] "توقع"
+msgstr[1] "توقعات"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: wcp-reports.class.php:814 wcp-reports.class.php:977
+#: wcp-reports.class.php:1096 wcp-reports.class.php:1226
+msgid "Pred"
+msgstr "تنبؤ"
+
+#: wcp-reports.class.php:843 wcp-reports.class.php:905
+#: wcp-reports.class.php:1176 wcp-reports.class.php:1267
+msgid "Back"
+msgstr ""
+
+#: wcp-reports.class.php:971 wcp-reports.class.php:1090
+#: wcp-reports.class.php:1224 admin/wcp-overview.class.php:44
+#: admin/wcp-predictions.class.php:124
+msgid "Match"
+msgid_plural "Matches"
+msgstr[0] "مباراة"
+msgstr[1] "مباراة"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: wcp-reports.class.php:973 wcp-reports.class.php:1092
+#, fuzzy
+#| msgid "Results only"
+msgid "Results"
+msgstr "النتائج فقط"
+
+#: wcp-reports.class.php:973 wcp-reports.class.php:1092
+#: wcp-reports.class.php:1225 admin/wcp-matches.class.php:235
+msgid "Res"
+msgstr "مكان الإقامة"
+
+#: wcp-reports.class.php:1011 wcp-reports.class.php:1260
+msgid "Total"
+msgstr "المجموع"
+
+#: wcp-reports.class.php:1225
+#, fuzzy
+#| msgid "Results only"
+msgid "Result"
+msgstr "النتائج فقط"
+
+#: wcp-widgets.class.php:20
+#, fuzzy
+#| msgid "Display Leaders of World Cup Predictor"
+msgid "Display Leaders of WCP"
+msgstr "عرض قادة كأس العالم توقع"
+
+#: wcp-widgets.class.php:21
+#, fuzzy
+#| msgid "Ranking"
+msgid "WCP Top Ranking"
+msgstr "تصنيف الرتب"
+
+#: wcp-widgets.class.php:84
+msgid "Display Rankings."
+msgstr "إظهار الترتيب."
+
+#: wcp-widgets.class.php:85 wcp-widgets.class.php:169 wcp-widgets.class.php:228
+#: wcp-widgets.class.php:280
+msgid "Title:"
+msgstr "عنوان:"
+
+#: wcp-widgets.class.php:88
+msgid "Max rankings to show:"
+msgstr "الحد الأقصى لإظهار الترتيب:"
+
+#: wcp-widgets.class.php:91
+msgid "Show Avatars:"
+msgstr "إظهار الصورة الشخصية:"
+
+#: wcp-widgets.class.php:94
+msgid "CSS for current user:"
+msgstr "تخصيص CSS للمستخدم الحالي:"
+
+#: wcp-widgets.class.php:97
+msgid "Full rankings page URL:"
+msgstr "رابط صفحة الترتيب:"
+
+#: wcp-widgets.class.php:100
+msgid "Full rankings link name:"
+msgstr "اسم رابط الترتيب"
+
+#: wcp-widgets.class.php:112
+#, fuzzy
+#| msgid "Display User Predictions."
+msgid "Display User Predictions of WCP"
+msgstr "إظهار توقعات المستخدم."
+
+#: wcp-widgets.class.php:113
+#, fuzzy
+#| msgid "WCP Manager Predictions"
+msgid "WCP User Predictions"
+msgstr "إدارة توقعات كأس العالم"
+
+#: wcp-widgets.class.php:168
+msgid "Display User Predictions."
+msgstr "إظهار توقعات المستخدم."
+
+#: wcp-widgets.class.php:172
+msgid "My predictions page URL:"
+msgstr ""
+
+#: wcp-widgets.class.php:175
+msgid "My predictions link name:"
+msgstr ""
+
+#: wcp-widgets.class.php:178
+msgid "Show Results:"
+msgstr "إظهار النتائج:"
+
+#: wcp-widgets.class.php:190
+msgid "Display Championship Standings"
+msgstr ""
+
+#: wcp-widgets.class.php:191
+msgid "WCP Standings"
+msgstr ""
+
+#: wcp-widgets.class.php:227
+#, fuzzy
+#| msgid "Display Rankings."
+msgid "Display Championship Standings."
+msgstr "إظهار الترتيب."
+
+#: wcp-widgets.class.php:240
+msgid "Show the total points of current user"
+msgstr ""
+
+#: wcp-widgets.class.php:241
+msgid "WCP My Points"
+msgstr ""
+
+#: wcp-widgets.class.php:256
+#, php-format
+msgid "You currently have %d points"
+msgstr ""
+
+#: wcp-widgets.class.php:279
+msgid "Show Total Points."
+msgstr ""
+
+#: admin/wcp-admin.class.php:186
+msgid "Plugin successfully activated"
+msgstr ""
+
+#: admin/wcp-admin.class.php:209
+msgid "WCP Menu"
+msgstr "قائمة كأس العالم"
+
+#: admin/wcp-admin.class.php:209
+msgid "WCP Cup"
+msgstr "كأس العالم"
+
+#: admin/wcp-admin.class.php:210
+msgid "Overview"
+msgstr "المقدمة"
+
+#: admin/wcp-admin.class.php:211
+msgid "Teams and Matches"
+msgstr "الفرق والمباريات"
+
+#: admin/wcp-admin.class.php:213
+msgid "Help"
+msgstr "مساعدة"
+
+#: admin/wcp-admin.class.php:267
+msgid "Are you enjoying this plugin?  Please consider donating."
+msgstr ""
+
+#: admin/wcp-admin.class.php:276
+msgid "Already donated"
+msgstr ""
+
+#: admin/wcp-admin.class.php:288
+msgid "Countdown clock format"
+msgstr "شكل ساعة العد التنازلي"
+
+#: admin/wcp-admin.class.php:292
+msgid ""
+"Convert kickoff times to local timezone. If unchecked kickoff times are "
+"displayed as match local time"
+msgstr ""
+"تحويل الأوقات حسب توقيت انطلاق المباراة المحلية. إذا يتم عرض الأوقات ضربة "
+"بداية المباراة دون رادع كما بالتوقيت المحلي"
+
+#: admin/wcp-admin.class.php:296
+msgid "Show users predictions before kickoff"
+msgstr "عرض المستخدمين التوقعات قبل انطلاق المباراة"
+
+#: admin/wcp-admin.class.php:300
+msgid "Separator used in scores of matches"
+msgstr "فاصل المستخدمة في العشرات من المباريات"
+
+#: admin/wcp-admin.class.php:304
+msgid "Page Predictions by Match"
+msgstr "توقعات الصفحة عن طريق المباراة"
+
+#: admin/wcp-admin.class.php:306 admin/wcp-admin.class.php:326
+msgid "Choose Page"
+msgstr "اختيار الصفحة"
+
+#: admin/wcp-admin.class.php:324
+msgid "Page Predictions of User"
+msgstr "الصفحة التوقعات من العضو"
+
+#: admin/wcp-admin.class.php:345
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: admin/wcp-matches.class.php:70 admin/wcp-matches.class.php:121
+#: admin/wcp-predictions.class.php:61 admin/wcp-predictions.class.php:79
+#: admin/wcp-predictions.class.php:102 admin/wcp-scoring.class.php:95
+#: admin/wcp-stages.class.php:52 admin/wcp-stages.class.php:71
+#: admin/wcp-stages.class.php:95 admin/wcp-teams.class.php:54
+#: admin/wcp-teams.class.php:74 admin/wcp-teams.class.php:97
+#: admin/wcp-venues.class.php:53 admin/wcp-venues.class.php:72
+#: admin/wcp-venues.class.php:95
+msgid "Changes saved"
+msgstr "تم حفظ التغييرات"
+
+#: admin/wcp-matches.class.php:98
+msgid "Changes saved and prediction points updated"
+msgstr "التغييرات المحفوظة ونقاط التنبؤ تحديث"
+
+#: admin/wcp-matches.class.php:128
+msgid "Manage matches"
+msgstr "إدارة المباريات"
+
+#: admin/wcp-matches.class.php:130
+msgid ""
+"Once the match has finished edit the match, enter the score and check "
+"\"Match Finished\"."
+msgstr "عند انتهاءك من تعديل المباراة، سجل النتائج وتحقق \"انتهاء المباراة\"."
+
+#: admin/wcp-matches.class.php:141
+msgid "Match#"
+msgstr "رقم المباراة"
+
+#: admin/wcp-matches.class.php:145 admin/wcp-matches.class.php:232
+#: admin/wcp-overview.class.php:40
+msgid "Venue"
+msgid_plural "Venues"
+msgstr[0] "مكان"
+msgstr[1] "مكان"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: admin/wcp-matches.class.php:147
+msgid "Select Venue"
+msgstr "حدد المكان"
+
+#: admin/wcp-matches.class.php:150 admin/wcp-matches.class.php:233
+#: admin/wcp-predictions.class.php:221 admin/wcp-results.class.php:74
+msgid "Stage"
+msgstr "الدور"
+
+#: admin/wcp-matches.class.php:152
+msgid "Select Stage"
+msgstr "حدد الدور"
+
+#: admin/wcp-matches.class.php:155
+msgid "Kickoff date time (Must be UTC)"
+msgstr "تاريخ انطلاق المباراة الساعة (يجب أن يكون UTC)"
+
+#: admin/wcp-matches.class.php:159
+msgid "Team A"
+msgstr "الفريق الأول"
+
+#: admin/wcp-matches.class.php:161 admin/wcp-matches.class.php:170
+msgid "Select Team"
+msgstr "حدد فريق"
+
+#: admin/wcp-matches.class.php:162 admin/wcp-predictions.class.php:129
+msgid "Goals A"
+msgstr "أهداف الفريق الأول"
+
+#: admin/wcp-matches.class.php:164 admin/wcp-predictions.class.php:131
+msgid "Penalties A"
+msgstr "ضربات جزاء الفريق الأول"
+
+#: admin/wcp-matches.class.php:168
+msgid "Team B"
+msgstr "الفريق الثاني"
+
+#: admin/wcp-matches.class.php:171 admin/wcp-predictions.class.php:135
+msgid "Goals B"
+msgstr "أهداف الفريق الثاني"
+
+#: admin/wcp-matches.class.php:173 admin/wcp-predictions.class.php:137
+msgid "Penalties B"
+msgstr "ضربات جزاء الفريق الثاني"
+
+#: admin/wcp-matches.class.php:181
+msgid "Match finished"
+msgstr "انتهت المباراة"
+
+#: admin/wcp-matches.class.php:190
+msgid "Modify Match"
+msgstr "تعديل المباراة"
+
+#: admin/wcp-matches.class.php:191 admin/wcp-predictions.class.php:164
+#: admin/wcp-stages.class.php:128 admin/wcp-teams.class.php:136
+#: admin/wcp-venues.class.php:134
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: admin/wcp-matches.class.php:197
+msgid "Add Match"
+msgstr "إضافة مباراة"
+
+#: admin/wcp-matches.class.php:229 admin/wcp-predictions.class.php:216
+#: admin/wcp-stages.class.php:155 admin/wcp-teams.class.php:166
+#: admin/wcp-venues.class.php:164
+msgid "Del"
+msgstr "حذف"
+
+#: admin/wcp-matches.class.php:230 admin/wcp-predictions.class.php:217
+#: admin/wcp-results.class.php:72 admin/wcp-stages.class.php:156
+#: admin/wcp-teams.class.php:167 admin/wcp-venues.class.php:165
+msgid "ID"
+msgstr "تسلسل"
+
+#: admin/wcp-matches.class.php:231 admin/wcp-predictions.class.php:220
+#: admin/wcp-results.class.php:73
+msgid "#"
+msgstr "رقم"
+
+#: admin/wcp-matches.class.php:234 admin/wcp-results.class.php:75
+msgid "Kickoff"
+msgstr "وقت البداية"
+
+#: admin/wcp-matches.class.php:237 admin/wcp-predictions.class.php:223
+#: admin/wcp-results.class.php:77
+msgid "A"
+msgstr "الأول"
+
+#: admin/wcp-matches.class.php:239 admin/wcp-predictions.class.php:225
+#: admin/wcp-results.class.php:79
+msgid "B"
+msgstr "الثاني"
+
+#: admin/wcp-matches.class.php:241
+msgid "E.T."
+msgstr "الوقت الإضافي"
+
+#: admin/wcp-matches.class.php:242 admin/wcp-predictions.class.php:227
+#: admin/wcp-results.class.php:81 admin/wcp-stages.class.php:160
+#: admin/wcp-teams.class.php:173 admin/wcp-venues.class.php:170
+msgid "Last Modified"
+msgstr "آخر تعديل كان في"
+
+#: admin/wcp-matches.class.php:251
+msgid "Modify this match"
+msgstr "تعديل هذه المباراة"
+
+#: admin/wcp-matches.class.php:280 admin/wcp-predictions.class.php:271
+#: admin/wcp-stages.class.php:181 admin/wcp-teams.class.php:196
+#: admin/wcp-venues.class.php:192
+msgid "Delete Selected"
+msgstr "حذف التحديد"
+
+#: admin/wcp-matches.class.php:293
+msgid "Match#, and goals must be numeric"
+msgstr "رقم المباراة والأهداف يجب أن ترقم"
+
+#: admin/wcp-matches.class.php:298 admin/wcp-predictions.class.php:301
+msgid "Penalties must be numeric"
+msgstr "يجب ترقيم ركلات الترجيح"
+
+#: admin/wcp-matches.class.php:303
+msgid "Select two different teams"
+msgstr "حدد فريقان مختلفان"
+
+#: admin/wcp-matches.class.php:308
+msgid "Select a venue and stage"
+msgstr "حدد المكان والمرحلة"
+
+#: admin/wcp-matches.class.php:313
+msgid "Kickoff must be valid YYYY-MM-DD HH:MM:SS date time format."
+msgstr ""
+"وقت بداية المباراة يجب أن يكون صحيحاً مثال عن تنسيق الوقت والتاريخ: YYYY-MM-"
+"DD HH:MM:SS"
+
+#: admin/wcp-matches.class.php:410
+#, fuzzy
+#| msgid "Can not delete a team with matches"
+msgid "Can not delete a match with predictions"
+msgstr "لا يمكنك حذف الفريق مع المباريات"
+
+#: admin/wcp-menu.class.php:23 admin/wcp-overview.class.php:72
+msgid "WCP Manager"
+msgstr "إدارة كأس العالم"
+
+#: admin/wcp-menu.class.php:28
+msgid "Teams"
+msgstr "فريق"
+
+#: admin/wcp-menu.class.php:29
+msgid "Venues"
+msgstr "الأماكن"
+
+#: admin/wcp-menu.class.php:30
+msgid "Stages"
+msgstr "المراحل"
+
+#: admin/wcp-menu.class.php:31
+msgid "Matches"
+msgstr "المباريات"
+
+#: admin/wcp-menu.class.php:32 admin/wcp-menu.class.php:67
+msgid "Group Results"
+msgstr "نتائج المجموعة"
+
+#: admin/wcp-overview.class.php:30
+msgid "At a Glance"
+msgstr "لمحة سريعة"
+
+#: admin/wcp-overview.class.php:54
+msgid "Here you can import your teams, venues and match schedules."
+msgstr "يمكنك هنا استيراد فريقك المفضل، الأماكن، وجداول المباريات."
+
+#: admin/wcp-overview.class.php:58
+msgid "Championship"
+msgstr ""
+
+#: admin/wcp-overview.class.php:60
+msgid "Confederations Cup 2017"
+msgstr ""
+
+#: admin/wcp-overview.class.php:61
+msgid "Euro 2016"
+msgstr ""
+
+#: admin/wcp-overview.class.php:62
+#, fuzzy
+#| msgid "World Cup Predictor"
+msgid "World Cup 2014"
+msgstr "توقع كأس العالم"
+
+#: admin/wcp-overview.class.php:66
+msgid "Import"
+msgstr "استيراد"
+
+#: admin/wcp-overview.class.php:72
+msgid "no"
+msgstr "رقم"
+
+#: admin/wcp-overview.class.php:73
+#, php-format
+msgid "You currently have %s rights."
+msgstr "لديك الحقوق اللازمة ل %s."
+
+#: admin/wcp-overview.class.php:99
+#, php-format
+msgid ""
+"Newsfeed could not be loaded.  Check the <a href=\"%s\">front page</a> to "
+"check for updates."
+msgstr ""
+"لا يوجد حالياً أي خبر جديد. لآخر تحديث راجع صفحة <a href=\"%s\">خلاصات "
+"الموقع</a>"
+
+#: admin/wcp-overview.class.php:131
+msgid "Thank you to all donators..."
+msgstr "شكراً لجميع المتبرعين..."
+
+#: admin/wcp-overview.class.php:158
+msgid "Not set"
+msgstr "غير مدرج بعد"
+
+#: admin/wcp-overview.class.php:160
+msgid "On"
+msgstr "مفعل"
+
+#: admin/wcp-overview.class.php:161
+msgid "Off"
+msgstr "غير مفعل"
+
+#: admin/wcp-overview.class.php:164
+msgid "Operating System"
+msgstr "نظام التشغيل"
+
+#: admin/wcp-overview.class.php:165
+msgid "Server"
+msgstr "الخادم"
+
+#: admin/wcp-overview.class.php:166
+msgid "MYSQL Version"
+msgstr "إصدار MYSQL"
+
+#: admin/wcp-overview.class.php:167
+msgid "SQL Mode"
+msgstr "وضع SQL"
+
+#: admin/wcp-overview.class.php:168
+msgid "PHP Version"
+msgstr "إصدار PHP"
+
+#: admin/wcp-overview.class.php:169
+msgid "PHP Safe Mode"
+msgstr "الوضع الآمن PHP"
+
+#: admin/wcp-overview.class.php:192
+msgid "Support Forum"
+msgstr "دعم المنتدى"
+
+#: admin/wcp-overview.class.php:201
+msgid "Welcome to World Cup Predictor V "
+msgstr "مرحبا بكم في كأس العالم توقع V"
+
+#: admin/wcp-overview.class.php:202
+msgid "Latest News"
+msgstr "آخر الأخبار"
+
+#: admin/wcp-overview.class.php:203
+msgid "Recent donators"
+msgstr "آخر المتبرعين"
+
+#: admin/wcp-overview.class.php:204
+msgid "Server Settings"
+msgstr "إعدادات الخادم"
+
+#: admin/wcp-overview.class.php:205
+msgid "Settings"
+msgstr "إعدادات"
+
+#: admin/wcp-overview.class.php:206
+msgid "Support"
+msgstr "الدعم"
+
+#: admin/wcp-overview.class.php:213
+msgid "World Cup Predictor Overview"
+msgstr "كأس العالم توقع نظرة عامة"
+
+#: admin/wcp-predictions.class.php:109
+msgid "Manage predictions"
+msgstr "إدارة التوقعات"
+
+#: admin/wcp-predictions.class.php:111
+msgid ""
+"For a manually entered prediction the prediction time must be before the "
+"kickoff time."
+msgstr ""
+"لإدخالها يدويا التنبؤ يجب أن يكون الوقت التنبؤ قبل وقت انطلاق المباراة."
+
+#: admin/wcp-predictions.class.php:121
+msgid "Select user"
+msgstr "حدد مستخدم"
+
+#: admin/wcp-predictions.class.php:126
+msgid "Select match"
+msgstr "حدد مباراة"
+
+#: admin/wcp-predictions.class.php:145
+msgid "Prediction time"
+msgstr "وقت التوقع"
+
+#: admin/wcp-predictions.class.php:150 admin/wcp-scoring.class.php:183
+msgid "All Users"
+msgstr "جميع المستخدمين"
+
+#: admin/wcp-predictions.class.php:152
+msgid "All Stages"
+msgstr "جميع الأدوار"
+
+#: admin/wcp-predictions.class.php:154
+msgid "All Teams"
+msgstr "جميع الفرق"
+
+#: admin/wcp-predictions.class.php:156 admin/wcp-scoring.class.php:184
+msgid "Filter"
+msgstr "تصفية"
+
+#: admin/wcp-predictions.class.php:163
+msgid "Modify Prediction"
+msgstr "تعديل التوقع"
+
+#: admin/wcp-predictions.class.php:169
+msgid "Add Prediction"
+msgstr "إضافة توقع جديد"
+
+#: admin/wcp-predictions.class.php:208
+msgid "All times are UTC"
+msgstr "جميع الأوقات تستخدم GMT"
+
+#: admin/wcp-predictions.class.php:239
+msgid "Modify this prediction"
+msgstr "تعديل هذا التوقع"
+
+#: admin/wcp-predictions.class.php:282
+msgid "All Matches"
+msgstr "جميع المباريات"
+
+#: admin/wcp-predictions.class.php:283
+msgid "Results only"
+msgstr "النتائج فقط"
+
+#: admin/wcp-predictions.class.php:284
+msgid "Pending matches only"
+msgstr "المباريات القادمة فقط"
+
+#: admin/wcp-predictions.class.php:296
+msgid "Goals and points must be numeric"
+msgstr "يجب ترقيم الأهداف والنقاط"
+
+#: admin/wcp-predictions.class.php:306
+msgid "Select a user and match"
+msgstr "حدد مستخدم ومباراة"
+
+#: admin/wcp-predictions.class.php:311
+msgid "Prediction time must be valid YYYY-MM-DD HH:MM:SS date time format."
+msgstr ""
+"وقت التوقع يجب أن يكون صحيحاً مثال عن تنسيق الوقت والتاريخ: YYYY-MM-DD HH:MM:"
+"SS"
+
+#: admin/wcp-results.class.php:32
+msgid "Prediction points updated."
+msgstr "تم تحديث نقاط التوقع بنجاح."
+
+#: admin/wcp-results.class.php:37
+msgid "Assign prediction scores for completed matches"
+msgstr "اكتب نتائج التوقع للمباريات المنتهية"
+
+#: admin/wcp-results.class.php:39
+msgid "Select each newly completed match to assign users' scores."
+msgstr "حدد أي مباراة منتهية حديثاً لتخصص نقاط المستخدمين."
+
+#: admin/wcp-results.class.php:39
+msgid "Enter Match Results"
+msgstr "أدخل نتائج المباراة"
+
+#: admin/wcp-results.class.php:41
+#, fuzzy, php-format
+#| msgid ""
+#| "Matches marked with a green tick (%s) are finished and have been scored."
+msgid ""
+"Matches marked with a green tick (%s) are finished and have been scored."
+msgstr "مباريات ملحوظ مع علامة خضراء (٪ ق) هي المصنعة وتم وسجل."
+
+#: admin/wcp-results.class.php:71
+msgid "Sel"
+msgstr "المحدد"
+
+#: admin/wcp-results.class.php:119
+msgid "Score Selected"
+msgstr "تم تحديد النتيجة"
+
+#: admin/wcp-scoring.class.php:41
+msgid "WCP Manager Predictions"
+msgstr "إدارة توقعات كأس العالم"
+
+#: admin/wcp-scoring.class.php:47
+msgid "Score Matches"
+msgstr "نتائج المباريات"
+
+#: admin/wcp-scoring.class.php:48
+msgid "Users Ranking"
+msgstr "تقييم المستخدمين"
+
+#: admin/wcp-scoring.class.php:49
+msgid "Configure Scoring"
+msgstr "إعداد النتائج"
+
+#: admin/wcp-scoring.class.php:88
+msgid "Points must be numeric"
+msgstr "يجب ترقيم النقاط"
+
+#: admin/wcp-scoring.class.php:100
+msgid "This includes the penalties in the knockout stage if applicable"
+msgstr "تتضمن ركلات الترجيح في الدور الفاصل إذا تطبقت"
+
+#: admin/wcp-scoring.class.php:104
+msgid "Setup points allocation"
+msgstr "إعداد توزيع النقاط"
+
+#: admin/wcp-scoring.class.php:113
+msgid "Points for correct score"
+msgstr "النقاط للنتيجة الصحيحة"
+
+#: admin/wcp-scoring.class.php:115
+#, php-format
+msgid "For example predict 3-0 and the result is 3-0 award %d points"
+msgstr "مثال: إذا كان التوقع 3-0 وكانت النتيجة 3-0 فسيحصل العضو على %d نقطة"
+
+#: admin/wcp-scoring.class.php:118
+msgid "Points for guessing a draw"
+msgstr "النقاط لتخمين التعادل"
+
+#: admin/wcp-scoring.class.php:120
+#, php-format
+msgid "For example predict 2-2 and the result is 1-1 award %d points"
+msgstr "مثال: إذا كان التوقع 1-1 وكانت النتيجة 2-2 فسيحصل العضو على %d نقطة"
+
+#: admin/wcp-scoring.class.php:123
+msgid "Wrong score but predicted the correct winner"
+msgstr "نتيجة خاطئة ولكن توقعت بأنه سيفوز"
+
+#: admin/wcp-scoring.class.php:125
+#, php-format
+msgid "For example predict 1-0 and the result is 2-0 award %d points"
+msgstr "مثال: إذا كان التوقع 1-0 وكانت النتيجة 2-0 فسيحصل العضو على %d نقطة"
+
+#: admin/wcp-scoring.class.php:128
+#, php-format
+msgid ""
+"Points above are not cummulative, for example predict 2-2 and the result is "
+"2-2, you gain %d\n"
+"\t\t\tpoints, NOT %d points"
+msgstr ""
+"النقاط في الأعلى غير متزايدة، على سبيل المثال: إذا كان التوقع 2-2 وكانت "
+"النتيجة 2-2 ستحصل على%d\n"
+"\t\t\tنقاط, وليس %d نقطة"
+
+#: admin/wcp-scoring.class.php:131
+msgid "Bonus points"
+msgstr "نقاط إضافية"
+
+#: admin/wcp-scoring.class.php:134
+msgid "Points for correct number of goals"
+msgstr "النقاط للرقم الصحيح للأهداف"
+
+#: admin/wcp-scoring.class.php:136
+#, php-format
+msgid "For example predict 3-0 and the result is 3-1 award extra %d points"
+msgstr ""
+"مثال: إذا كان التوقع 3-0 وكانت النتيجة 3-1 فسيحصل العضو على جائزة إضافية %d "
+"نقطة"
+
+#: admin/wcp-scoring.class.php:139
+msgid "Points for correct goal difference"
+msgstr "النقاط بفارق الأهداف الصحيحة"
+
+#: admin/wcp-scoring.class.php:141
+#, php-format
+msgid "For example predict 5-3 and the result is 3-1 award extra %d points"
+msgstr ""
+"مثال: إذا كان التوقع 5-3 وكانت النتيجة 3-1 فسيحصل العضو على جائزة إضافية %d "
+"نقطة"
+
+#: admin/wcp-scoring.class.php:144
+msgid "Bonus points are cummulative"
+msgstr "مكافأة النقاط متزايدة"
+
+#: admin/wcp-scoring.class.php:173
+msgid "Ranking and Scores"
+msgstr "الترتيب والنقاط"
+
+#: admin/wcp-scoring.class.php:179
+msgid "Select Match Result"
+msgstr "حدد نتيجة المباراة"
+
+#: admin/wcp-scoring.class.php:180
+msgid "Select"
+msgstr "حدد"
+
+#: admin/wcp-scoring.class.php:188
+msgid "User Points"
+msgstr "نقاط المستخدم"
+
+#: admin/wcp-scoring.class.php:193
+msgid "Ranking"
+msgstr "تصنيف الرتب"
+
+#: admin/wcp-stages.class.php:102
+msgid "Manage stages"
+msgstr "إدارة الأدوار"
+
+#: admin/wcp-stages.class.php:111 admin/wcp-stages.class.php:157
+msgid "Stage Name"
+msgstr "اسم الدور"
+
+#: admin/wcp-stages.class.php:115 admin/wcp-stages.class.php:158
+msgid "Group Stage"
+msgstr "دور المجموعة"
+
+#: admin/wcp-stages.class.php:119 admin/wcp-stages.class.php:159
+msgid "Sort Order"
+msgstr "تصنيف الترتيب"
+
+#: admin/wcp-stages.class.php:127
+msgid "Modify Stage"
+msgstr "تعديل الدور"
+
+#: admin/wcp-stages.class.php:133
+msgid "Add Stage"
+msgstr "إضافة دور"
+
+#: admin/wcp-stages.class.php:169
+msgid "Modify this stage"
+msgstr "تعديل هذا الدور"
+
+#: admin/wcp-stages.class.php:194
+msgid "Stage Name can not be empty"
+msgstr "يجب أن لا يكون اسم الدور فارغاً"
+
+#: admin/wcp-stages.class.php:198
+msgid "Sort order must be numeric"
+msgstr "يجب ترقيم تصنيف الترتيب"
+
+#: admin/wcp-stages.class.php:284
+msgid "Can not delete a stage with matches"
+msgstr "لا يمكنك حذف المرحلة مع المباريات"
+
+#: admin/wcp-teams.class.php:104
+msgid "Manage teams"
+msgstr "إدارة الفرق"
+
+#: admin/wcp-teams.class.php:115 admin/wcp-teams.class.php:168
+msgid "Team Name"
+msgstr "اسم الفريق"
+
+#: admin/wcp-teams.class.php:119 admin/wcp-teams.class.php:170
+msgid "Country Code"
+msgstr "رمز البلد"
+
+#: admin/wcp-teams.class.php:123 admin/wcp-teams.class.php:171
+msgid "Team URL"
+msgstr "رابط للفريق"
+
+#: admin/wcp-teams.class.php:127 admin/wcp-teams.class.php:172
+msgid "Group Order"
+msgstr "مجموعة ترتيب"
+
+#: admin/wcp-teams.class.php:135
+msgid "Modify Team"
+msgstr "تعديل الفريق"
+
+#: admin/wcp-teams.class.php:141
+msgid "Add Team"
+msgstr "إضافة فريق"
+
+#: admin/wcp-teams.class.php:169
+msgid "Flag"
+msgstr "علم الدولة"
+
+#: admin/wcp-teams.class.php:182
+msgid "Modify this team"
+msgstr "تعديل هذا الفريق"
+
+#: admin/wcp-teams.class.php:209
+msgid "Team Name or Country Code can not be empty"
+msgstr "يجب أن لا يكون اسم الفريق ورمز البلد فارغان"
+
+#: admin/wcp-teams.class.php:214
+#, fuzzy
+#| msgid "Sort order must be numeric"
+msgid "Group Order must be numeric"
+msgstr "يجب ترقيم تصنيف الترتيب"
+
+#: admin/wcp-teams.class.php:302
+msgid "Can not delete a team with matches"
+msgstr "لا يمكنك حذف الفريق مع المباريات"
+
+#: admin/wcp-venues.class.php:102
+msgid "Manage venues"
+msgstr "إدارة الأماكن"
+
+#: admin/wcp-venues.class.php:113 admin/wcp-venues.class.php:166
+msgid "Venue Name"
+msgstr "اسم المكان"
+
+#: admin/wcp-venues.class.php:117 admin/wcp-venues.class.php:167
+msgid "Venue URL"
+msgstr "رابط للمكان"
+
+#: admin/wcp-venues.class.php:121 admin/wcp-venues.class.php:168
+msgid "Stadium"
+msgstr "الملعب"
+
+#: admin/wcp-venues.class.php:125
+msgid "UTC Offset in hours"
+msgstr "UTC الأوفست في ساعات"
+
+#: admin/wcp-venues.class.php:133
+msgid "Modify Venue"
+msgstr "تعديل المكان"
+
+#: admin/wcp-venues.class.php:139
+msgid "Add Venue"
+msgstr "إضافة مكان"
+
+#: admin/wcp-venues.class.php:169
+msgid "UTC+"
+msgstr ""
+
+#: admin/wcp-venues.class.php:179
+msgid "Modify this venue"
+msgstr "تعديل هذا المكان"
+
+#: admin/wcp-venues.class.php:205
+msgid "Venue Name or Stadium can not be empty"
+msgstr "اسم المكان واسم الملعب لا يمكن أن يكونا فارغان"
+
+#: admin/wcp-venues.class.php:210
+msgid "UTC Offset must be numeric"
+msgstr "يجب أن يكون UTC أوفست رقمية"
+
+#: admin/wcp-venues.class.php:298
+msgid "Can not delete a venue with matches"
+msgstr "لا يمكن حذف مكانا مع المباريات"
+
+#: admin/champs/euro-2016.php:139 admin/champs/wcup-2014.php:167
+msgid "Match data imported"
+msgstr "تم استيراد بيانات المباريات بنجاح."
+
+
+#: admin/wcp-overview.class.php:61
+msgid "Here you can create predictions pages, group tables and rankings automatically."
+msgstr ""
+
+#: admin/wcp-overview.class.php:65
+msgid "Create Pages"
+msgstr ""
+
+#: admin/wcp-overview.class.php:79
+msgid "Champions League 2019/2020"
+msgstr ""
+
+#: admin/wcp-overview.class.php:240
+msgid "Predictions by Match"
+msgstr ""
+
+#: admin/wcp-overview.class.php:246
+msgid "Predictions of User"
+msgstr ""
+
+#: admin/wcp-overview.class.php:258
+msgid "Group Tables"
+msgstr ""
+
+#~ msgid "Timezone difference must be in [+/-]HH:MM format, e.g. +03:00."
+#~ msgstr "، مثال: +03.00 HH:MM يجب أن يكون فارق الوقت بتنسيق"
+
+#~ msgid "Timezone difference updated"
+#~ msgstr "تم تحديث فارق الوقت بنجاح."
+
+#~ msgid "Server local time"
+#~ msgstr "الوقت الحالي للخادم"
+
+#~ msgid "South African Time SAST"
+#~ msgstr "الوقت في جنوب أفريقيا (SAST)"
+
+#~ msgid "Ensure this timezone difference is correct or change it below."
+#~ msgstr "تأكد بأن فارق الوقت صحيحاً أو قم بتغييره من الأسفل."
+
+#~ msgid "Add +/- HH:MM to Server Local Time"
+#~ msgstr "أضف +/- HH:MM لتغيير الوقت حسب الخادم لديك"
+
+#~ msgid "Link to Authors site in footer"
+#~ msgstr "رابط لصفحة الكاتب في أسفل الصفحة"
+
+#~ msgid "Knockout Results"
+#~ msgstr "النتائج الحاسمة"
+
+#~ msgid "Donate"
+#~ msgstr "تبرع"
+
+#~ msgid "Name"
+#~ msgstr "الاسم"
+
+#~ msgid "Group"
+#~ msgstr "المجموعة"
+
+#~ msgid "Sort"
+#~ msgstr "ترتيب"
+
+#~ msgid "You must be logged in to predict."
+#~ msgstr "يجب عليك التسجيل في الموقع لتكتب توقعاتك."
+
+#~ msgid "Penalty"
+#~ msgstr "ضربة جزاء"
+
+#~ msgid "shootout"
+#~ msgstr "ركلات الترجيح"
+
+#~ msgid "vs"
+#~ msgstr "ضد"
+
+#~ msgid "Display World Cup Predictions"
+#~ msgstr "إظهار توقعات كأس العالم"
+
+#~ msgid "Display Users World Cup Predictions"
+#~ msgstr "إظهار توقعات المستخدمين لكأس العالم"
+
+#~ msgid "World Cup User Predictions"
+#~ msgstr "توقعات المستخدم لكأس العالم"
+
+#~ msgid "Show Total:"
+#~ msgstr "إظهار المجموع:"
+
+#~ msgid "http://www.ianhaycox.com/worldcuppredictor"
+#~ msgstr "http://www.photokeens.com"
+
+#~ msgid ""
+#~ "World Cup Predictor - Guess the outcome of World Cup football/soccer "
+#~ "games, aka Fantasy Football"
+#~ msgstr ""
+#~ "كأس العالم توقع - تخمين نتائج مباريات كأس العالم لكرة القدم / كرة القدم، "
+#~ "الملقب الخيال لكرة القدم"
+
+#~ msgid "Ian Haycox"
+#~ msgstr "Modar Soos"
+
+#~ msgid "http://www.ianhaycox.com"
+#~ msgstr "http://www.sada-sy.com"
+
+#~ msgid "Brazilian Time BRST"
+#~ msgstr "البرازيلي وقت BRST"
+
+#~ msgid ""
+#~ "Match times are currently set to match local time, please click here to "
+#~ "convert to your time zone."
+#~ msgstr ""
+#~ "يتم تعيين أوقات المباراة حاليا لمطابقة التوقيت المحلي، يرجى النقر هنا "
+#~ "للعودة إلى التوقيت الخاص بك."
+
+#~ msgid ""
+#~ "Match times are currently set to <strong>your timezone</strong>, please "
+#~ "click here to revert to local time."
+#~ msgstr ""
+#~ "يتم تعيين أوقات المباراة حاليا إلى <strong> توقيت الخاص </strong>، يرجى "
+#~ "النقر هنا للعودة إلى التوقيت المحلي."
+
+#~ msgid "Adjust Knockout Table to the theme Twenty Fourteen"
+#~ msgstr "ضبط خروج المغلوب جدول لموضوع وعشرون أربعة عشر"
+
+#~ msgid "Score"
+#~ msgstr "النتيجة"
+
+#~ msgid "Wrong score but predicted a loss"
+#~ msgstr "نتيجة خاطئة ولكن توقعت بأنه سيخسر"
+
+#~ msgid "For example predict 0-1 and the result is 0-2 award %d points"
+#~ msgstr "مثال: إذا كان التوقع 0-2 وكانت النتيجة 0-1 فسيحصل العضو على %d نقطة"

@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>WCP Dokumentation</title>
+</head>
+
+<body>
+<h1>World Cup Predictor</h1>
+<p><em>Ein Plugin um ein Tippspiel für die Fußball-WM 2010 durchzuführen.<br />
+Plugin to manage and present a fantasy football (soccer)   competition for the FIFA World Cup 2010</em></p>
+<hr />
+<p> <strong>Contributors:</strong>Ian Haycox<br />
+  <strong>Donate link:</strong> <a href="http://www.wcp.net.br/donate/">http://www.wcp.net.br/donate/</a><br />
+  <strong>Tags:</strong> prediction, fantasy football, competition,   soccer, football, fantasy, sidebar, widget, post<br />
+  Tippspiel, Fußball, Wettkampf, Artikel, Seite
+  <br />
+  <strong>Requires at least:</strong> 2.8<br />
+  <strong>Tested up to:</strong> 2.9.2<br />
+  <strong>Stable tag:</strong> 0.4.2; 1.0; 1.1</p>
+<hr />
+<h3>Beschreibung</h3>
+<p>Mit diesem Plugin kann ein Tippspiel für die WM 2010 durchgeführt werden</p>
+<p>Benutzer tippen das Ergebnis für jedes Spiel in der Gruppenphase und der Finalrunde und bekommen, je nach Richtigkeit, dafür Punkte.</p>
+<p>Spielergebnisse und Tabellen können ebenfalls mittels Short-Codes angezeigt werden</p>
+<p><strong>Features</strong></p>
+<ul>
+  <li> einfaches hinzufügen von  Spielen, Austragungsorten und Ergebnissen</li>
+  <li>Formular für die Tippabgabe der Benutzer für die einzelnen Spiele</li>
+  <li>Widget für die Sidebar zum anzeiogen der Tipp-Tabelle</li>
+  <li>Widget für die Sidebar zur Anzeige der Tipps des aktullen Benutzers</li>
+  <li>Countdown zur Anzeige des nächsten Tippabgabeschluss</li>
+  <li>Anzeige von Ergebnissen und Gruppen Tabellen</li>
+  <li>Konfiguriebares Punktesystem für das Tippspiel</li>
+</ul>
+<hr />
+<h3>Installation</h3>
+<p>Zum installieren die folgenden Schritte durchführen</p>
+<ol>
+  <li>Entpacke die zip Datei lade den Inhalt in das Wordpress Plugin Verzeichnis. Normalerweise /wp-content/plugins</li>
+  <li>Aktiviere das Plugin unter Plugins im Backend.</li>
+  <li>Konfiguriere das Plugin im Backend.</li>
+</ol>
+<h3>Anmerkung zum Update</h3>
+<dl>
+  <dt>Die Datenbankstruktur wurde zwischen den Versionen 0.2 und 0.3 sowie 1.0 und 1.1 verändert. Nach dem Update das Plugin einmal de- und danach wieder aktivieren. Damit werden die neuen bzw. erweiterten Tabellen erstellt. Danach nocheinmal den Import durchführen</dt>
+  <dd></dd>
+</dl>
+<p>Eine Anleitung der Konfiguration findest du Anschluss.</p>
+<hr />
+<h3>Frequently Asked Questions</h3>
+<ul>
+  <li>Warum sind es 64 Mannschaften? - In dem Import sind Platzhalter zum füllen der Finalrunde enthalten. Diese müssen nach Abschluss der Vorrunde mit den Mannschaften ersetzt werden</li>
+</ul>
+<hr />
+<h3>Screenshots</h3>
+<ol>
+  <li><a href="http://s.wordpress.org/extend/plugins/world-cup-predictor/screenshot-1.png">Tippformular</a></li>
+  <li><a href="http://s.wordpress.org/extend/plugins/world-cup-predictor/screenshot-2.png">Gruppentabelle mit Ergebnissen</a></li>
+  <li><a href="http://s.wordpress.org/extend/plugins/world-cup-predictor/screenshot-3.png">Admin Fenster  </a></li>
+  <li><a href="http://s.wordpress.org/extend/plugins/world-cup-predictor/screenshot-4.png">Übersicht</a></li>
+  <li><a href="http://s.wordpress.org/extend/plugins/world-cup-predictor/screenshot-5.png">Tipps</a></li>
+  <li><a href="http://s.wordpress.org/extend/plugins/world-cup-predictor/screenshot-6.png">Finalrunde</a></li>
+</ol>
+<hr />
+<h3>Changelog</h3>
+<p><a href="http://svn.wp-plugins.org/world-cup-predictor/trunk/changelog.txt">ChangeLog</a></p>
+<hr />
+<h3>Anleitung</h3>
+<p>Nach der Insatallation und Aktivierung findest du auf der Übersichtsseite einen Import Button zum importieren aller Mannschaften, Spiele und Austragungsorte. Import ist in englisch</p>
+<p>Überprüfe die Zeitzonen-Einstellungen. Eine Differenz zwischen der lokalen und der Südafrika Zeit sollten angezeigt und entsprechend im Eingabefeld eingetragen werden. Falsche Einstellungen können dazu führen das der Tippabgebeschluss nciht mit offiziellen Anstoßzeit übereinstimmt</p>
+<p>Die Datums- und Zeitangaben sind nach der Südafrika Zeit angegeben (UTC +   2)</p>
+<p>Um die Verwaltung der Spiele,Mannschaften usw. durchführen zu können werden Wordpressrechte für wcup_manger benötigt. Diese Rechte werden als Standard der Administrator- und Editor Rolle automatisch hinzugefügt. Falls die Menü-Option World Cup nicht zur Verfügung steht, überprüfe ob dem entsprechenden Benutzer die wcup_manger Rolle zugewiesen ist. Eventuell muss ein entsprechdes Plugin zur Verwaltung der Benutzerrolen nachinstalliert werden.</p>
+Registrierte Benutzer des Blogs benötigen keine besonderen Rechte um am Tippspiel teilzunehmen.
+<h4>Tipps</h4>
+<p>Erstellen einen Artikel oder eine Seite mit dem Shortcode [world-cup-predictor] um das Tipp-Eingabeformular im Frontend anzuzeigen<br />
+Other shortcodes are available to display   prediction results  and match results. See below for more details.</p>
+<p>Benutzer können nur Spiele tippen die noch nicht begonnen haben. Wenn die Anstoßzeit erreicht ist wird ein Spiel nicht mehr im Forular angezeigt</p>
+<h4>Ergebnisse</h4>
+<p>Wenn ein Spiel beendet ist, gehe ins Backend und trage das Ergebnis in die entsprechenden Felder ein und markiere die Checkbox Spiel beendet.  Die Tabellen und Ergebnisse im Frontend werden dann aktuallisiert angezeigt</p>
+<p>Hat sich eine Mannschaft als Gruppen Erster oder -Zweiter für das Achtelfinale qualifiert, ändere die Spiele für die Finalrunde tausche den Platzhalter gegen die entsprechende Mannschaft aus.  Als Beispiel, wenn Südafrika die Gruppe A gewinnt, ändere das Spiel Nr. 49 und tausche den Platzhalter &quot;Sieger Gruppe A&quot; gegen &quot;Südafrika&quot; aus.</p>
+<p>Diese Änderung wird dann in der Finalrunden Übersicht angezeigt.</p>
+<h4>Optionen</h4>
+<p>Zur Zeit keine</p>
+<h4>Punkte kalkulieren</h4>
+<p><strong>Ergebnisse: </strong>Wenn ein Spiel beendet ist und das Ergebnis eingetragen wurde und das Spiel als beendet markiert ist, werden Punkte und Tabbelen aktuallisiert und im Frontend entsprechend  angezeigt</p>
+<p><strong>Tippspiel:</strong> Um die Punkte der Benutzer zu aktuallisieren, wähle den Tab &quot;Punkte berechnen&quot; unter &quot;Tippspiel&quot; im Admin Menü aus, markiere die neu beendeten Spiele und klicke dann unten auf &quot;Punkte berechnen&quot;. Damit werden die  Punkte aktuallisiert und in den Widgets und per Shortcut angzeigten übersichten angezeigt.</p>
+<p>Punkte werden entsprechend der Punkte Konfiguration vergeben.</p>
+<p><strong>Anmerkung</strong> - Bonuspunkte sind kommulativ und werden den entsprechenden Punkte für das richtige Ergebnis oder des richtigen Unentschieden-Tipps hinzu gezählt.</p>
+<p>Achte daher darauf das Bonuspunkte für die Toranzahl und der Tordifferenz jeweils zu den vorher vergebenen Punkte für den richtigen Tip hinzugezählt werden, weil die Tordifferenz ja richtig ist. Die Bonuspunkte für für die Tordifferenz werden ebenfalls bei richtigem Unentschieden Tipp hinzugezählt. Passe dementsprechende die Punktevergabe an, falls Bonuspunkte vergeben werden</p>
+<h4>Shortcodes</h4>
+<h5>Tipp-Formular</h5>
+<p>Das Tipp-Formular sowie die Spielergebnisse und Tippspiel Ergebnisse können mit den folgenden Shortcodes auf einer Seite oder einem Artikel angezeigt werden.</p>
+<pre>[world-cup-predictor]</pre>
+<p>Zeigt ein Tipp Formular für alle angelegten Spiele, wo die Anstoßzeit vor der aktuellen Zeit liegt. Ebenfalls wird ein Countdown bis zum nächsten Tippabgabeschluß angezeigt. Spiele die zum Zeitpunkt des Aufrufens der Seite bereits begonnenn haben erscheinen nicht in der Übersicht und können nicht mehr von den Benutzern getippt werden.</p>
+<p>Mit dem Attribut stage=n kann die Ansicht auf eine bestimmte Runde eingeschränkt werden. n ist mit der entsprechenden ID der Runde zu ersetzen.<br />
+  Beispiel für die Runde mit der ID 1<br /></p>
+<pre>[world-cup-predictor stage=1]
+</pre>
+<p>Um nur Spiele der Gruppenphase anzuzeigen, kann das Attribut group=true genutzt werden z.B. [world-cup-predictor   group=true].</p>
+<p>Um Spiele in der Reihenfolge der Anstoßzeit anzuzeigen kann das Attribut kickoff=true genutzt werden. Zusätzlich kann die Anzeige auf eine bestimmte Anzahl limmitiert werden z.B. [world-cup-predictor kickoff=true limit=5] zur Anzeige der nächsten 5 Spiele.</p>
+<h5><br />
+Tabellen der Gruppen</h5>
+<pre>[world-cup-predictor tables=1 stage=n show_results=n]  </pre>
+<p>Zeigt die Tabllen der Gruppen mit den einzelnen Spielen uind den Ergebnissen sobald die Spiel als beendet gekennzeichnet wurden und das Ergebnis eingetragen wurde. Die Attribute können Optinal gesetzt werden um die Anzeige auf Gruppen - stage=n wobei n der ID der jeweiligen Gruppe entspricht, Tabellen oder Ergebnisse results=n wobei n 0 oder 1 entspricht um die Ergebnisse anzuzeigen oder auszublenden, einzuschränken. Die Ergebnisse jeweils unter der Gruppentabelle angezeigt</p>
+<p>&nbsp;</p>
+<h5>Finalrunde</h5>
+
+<pre>[world-cup-predictor knockout=1]  </pre>
+<p>Zeigt die Ergebnisse mit Spielplan der Finalrunde.</p>
+<p>&nbsp;</p>
+<h5>Ergenisse der Spiele</h5>
+<pre>[world-cup-predictor results=1 stage=n]  </pre>
+<p>Zeigt eine Übersicht der Spielergebnisse. Optinal kann ein Attribute verwendet werden stage=n wobei n mit der ID der jeweiligen Runde zuersetzen ist um die Anzeige auf die bestimmte Runde einzuschränken.</p>
+<p>&nbsp;</p>
+<h5>Tipp Punkte</h5>
+<pre>[world-cup-predictor scores=n]  </pre>
+<p>Für jede Spiel ID, n ersetzt hier wieder die ID des Spiels, wird eine Tabelle für jeden Benutzer mit den jeweiligen Tipps und den gewonnen Punkten angezeigt<br />
+</p>
+<p>Optional kann der aktuell angemeldete Benutzer mit dem Attribut highlight=&quot;css-styles&quot; durch einen hinzugefügten CSS Style hevorgehoben werden.<br />
+Z.B.: 
+[world-cup-predictor   ranking=1 highlight=&quot;background:red;font-weight:bold&quot;].</p>
+<h5>Tipps der Benutzer</h5>
+<pre>`[world-cup-predictor user=1 show_total=n]`  </pre>
+<p>Zeigt eine Liste der Punkte für den aktuell angemeldeten Benutzer. Falls nicht 0 ist wird die Gesamtpunktzahl am unteren Ende angezeigt.</p>
+<p>Ebenfalls können die Gesammtpunkte ohne Tabelle mit [world-cup-predictor   show_total=1] angezeigt werden.</p>
+<h5>Tipp-Tabelle</h5>
+<pre>[world-cup-predictor ranking=1 limit=999]  </pre>
+<p>Zeigt die aktuelle Tipp-Tabelle mit den Gesamtpunkten der einzelnen Benutzer an.   Optional kann auch hier aktuell angemeldet Benutzer mit dem Attribut highlight=&quot;css-styles&quot; mit CSS hevorgehoben werden. Zum Beispiel: [world-cup-predictor   ranking=1 highlight=&quot;background:red;font-weight:bold&quot;].</p>
+<h4>Widget für Tipp-Tabelle</h4>
+<p>Das Widget zeigt die gleiche Anzeige wie der Shortcode [world-cup-predictor   ranking=1 limit=999]</p>
+<p>Lege das Widget per drag and drop in die Sidebar und dann konfiguriere es deinen Wünschen entsprechend. Das Widget kann mehrfach mit unterschiedlichen Einstellungen in die Sidebar eingebunden werden.</p>
+<p>Falls die URL für die Tipp-Tabelle eingetragen ist und dein entsprechender Linktext wird ein Link auf die Tipptabelle erstellt und im Widget angezeigt. Sehrt nützlich um z.B. nur die Top Ten anzuzeigen und dann auf die Gesamt-Tabelle zu verweisen</p>
+<h4>Tipp Widgewt für den Benutzer</h4>
+<p>Dieses Widget zeigt die Tipp-Übersicht des aktuell angemeldeten Benutzs ähnlich dem Shortcode `[world-cup-predictor   user=1]`</p>
+<p>Ziehe das Widget in die Sidebar und konfiguriere es.</p>
+</body>
+</html>

@@ -1,0 +1,1207 @@
+# Translation of the WordPress plugin World Cup Predictor 1.2 by Ian Haycox.
+# Copyright (C) 2010 Ian Haycox
+# This file is distributed under the same license as the World Cup Predictor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: World Cup Predictor 1.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/world-cup-predictor\n"
+"POT-Creation-Date: 2017-04-28 16:28-0300\n"
+"PO-Revision-Date: 2017-05-02 10:06-0300\n"
+"Last-Translator: Landoweb Programador <contato@landoweb.com.br>\n"
+"Language-Team: \n"
+"Language: sr_SR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: wcp-predict.class.php:50
+#, php-format
+msgid ""
+"Please <a href=\"%1$s\">login</a> or <a href=\"%2$s\">register</a> to make a "
+"prediction"
+msgstr ""
+"Molimo vas <a href=\"%1$s\">ulogujte se</a> ili <a href=\"%2$s"
+"\">registrujte</a> da biste igrali prognoze"
+
+#: wcp-predict.class.php:105 wcp-predict.class.php:436
+msgid "No matches available in this championship."
+msgstr "Nema mečeva dostupnih u ovom takmičenju"
+
+#: wcp-predict.class.php:108 admin/wcp-scoring.class.php:146
+msgid "Save"
+msgstr "Sačuvaj"
+
+#: wcp-predict.class.php:147 wcp-reports.class.php:400
+#: wcp-reports.class.php:418
+msgid "Penalties"
+msgstr "Penali"
+
+#: wcp-predict.class.php:221
+msgid "Prediction saved"
+msgstr "Prognoza sačuvana"
+
+#: wcp-predict.class.php:235 wcp-predict.class.php:244
+#: wcp-predict.class.php:253 wcp-predict.class.php:265
+msgid "Match score must be numeric"
+msgstr "Rezultat utakmice mora biti numerik"
+
+#: wcp-predict.class.php:273
+msgid "You can only enter penalties for a draw"
+msgstr "Mogu se uneti samo penali za nerešeno"
+
+#: wcp-predict.class.php:302
+msgid "Missing match. Prediction not saved."
+msgstr "Meč nedostaje. Prognoza nije sačuvana."
+
+#: wcp-predict.class.php:333
+msgid "Error saving prediction"
+msgstr "Greška u čuvanju prognoze"
+
+#: wcp-predict.class.php:338
+msgid "Some, or all, of your predictions are too late and will not be counted."
+msgstr "Neke, ili sve, vaše prognoze su zakasnele i neće biti računate."
+
+#: wcp-predict.class.php:359
+msgid "No data to save"
+msgstr "Nema podataka koji se čuvaju"
+
+#: wcp-predict.class.php:418 admin/wcp-admin.class.php:168
+#: admin/wcp-admin.class.php:289
+msgid "Next prediction deadline in"
+msgstr "Sledeći rok za prognoziranje je"
+
+#: wcp-predict.class.php:428
+msgid "Too Late - Prediction deadline passed"
+msgstr "Kasno - Rok za unos prognoze je prošao"
+
+#: wcp-reports.class.php:33 admin/wcp-matches.class.php:236
+#: admin/wcp-matches.class.php:240 admin/wcp-overview.class.php:36
+#: admin/wcp-predictions.class.php:222 admin/wcp-predictions.class.php:226
+#: admin/wcp-results.class.php:76 admin/wcp-results.class.php:80
+msgid "Team"
+msgid_plural "Teams"
+msgstr[0] "Tim"
+msgstr[1] "Timovi"
+msgstr[2] ""
+
+#: wcp-reports.class.php:34
+msgid "MP"
+msgstr "OM"
+
+#: wcp-reports.class.php:35
+msgid "Matches Played"
+msgstr "Odigrani mečevi"
+
+#: wcp-reports.class.php:36
+msgid "W"
+msgstr "P"
+
+#: wcp-reports.class.php:37
+msgid "Won"
+msgstr "Pobeda"
+
+#: wcp-reports.class.php:38
+msgid "D"
+msgstr "N"
+
+#: wcp-reports.class.php:39
+msgid "Draw"
+msgstr "Nerešeno"
+
+#: wcp-reports.class.php:40
+msgid "L"
+msgstr "I"
+
+#: wcp-reports.class.php:41
+msgid "Lost"
+msgstr "Izgubljeno"
+
+#: wcp-reports.class.php:42
+msgid "GF"
+msgstr "GD"
+
+#: wcp-reports.class.php:43
+msgid "Goals For"
+msgstr "Golova dali"
+
+#: wcp-reports.class.php:44
+msgid "GA"
+msgstr "GP"
+
+#: wcp-reports.class.php:45
+msgid "Goals Against"
+msgstr "Golova primili"
+
+#: wcp-reports.class.php:46
+msgid "GD"
+msgstr "GR"
+
+#: wcp-reports.class.php:47
+msgid "Goal difference"
+msgstr "Gol razlika"
+
+#: wcp-reports.class.php:48 wcp-reports.class.php:660 wcp-reports.class.php:814
+#: wcp-reports.class.php:893 wcp-reports.class.php:978
+#: wcp-reports.class.php:1227
+msgid "Pts"
+msgstr "Poe"
+
+#: wcp-reports.class.php:49 wcp-reports.class.php:660 wcp-reports.class.php:814
+#: wcp-reports.class.php:978 wcp-reports.class.php:1227
+#: admin/wcp-predictions.class.php:141 admin/wcp-predictions.class.php:219
+msgid "Points"
+msgstr "Poeni"
+
+#: wcp-reports.class.php:400 wcp-reports.class.php:418
+msgid "pen."
+msgstr "pen."
+
+#: wcp-reports.class.php:402 wcp-reports.class.php:420
+#: admin/wcp-matches.class.php:177
+msgid "Extra Time"
+msgstr "Produžeci"
+
+#: wcp-reports.class.php:402 wcp-reports.class.php:420
+msgid "a.e.t."
+msgstr "p.n.v."
+
+#: wcp-reports.class.php:537 wcp-reports.class.php:683
+#: wcp-reports.class.php:977 wcp-reports.class.php:1096
+#: admin/wcp-admin.class.php:212 admin/wcp-scoring.class.php:46
+msgid "Predictions"
+msgstr "Prognoze"
+
+#: wcp-reports.class.php:660 admin/wcp-predictions.class.php:120
+#: admin/wcp-predictions.class.php:218
+msgid "User"
+msgstr "Korisnik"
+
+#: wcp-reports.class.php:814 wcp-reports.class.php:893
+#: wcp-reports.class.php:1226 admin/wcp-overview.class.php:48
+msgid "Prediction"
+msgid_plural "Predictions"
+msgstr[0] "Prognoza"
+msgstr[1] "Prognoze"
+msgstr[2] ""
+
+#: wcp-reports.class.php:814 wcp-reports.class.php:977
+#: wcp-reports.class.php:1096 wcp-reports.class.php:1226
+msgid "Pred"
+msgstr "Предвиђање"
+
+#: wcp-reports.class.php:843 wcp-reports.class.php:905
+#: wcp-reports.class.php:1176 wcp-reports.class.php:1267
+msgid "Back"
+msgstr "Nazad"
+
+#: wcp-reports.class.php:971 wcp-reports.class.php:1090
+#: wcp-reports.class.php:1224 admin/wcp-overview.class.php:44
+#: admin/wcp-predictions.class.php:124
+msgid "Match"
+msgid_plural "Matches"
+msgstr[0] "Meč"
+msgstr[1] "Mečevi"
+msgstr[2] ""
+
+#: wcp-reports.class.php:973 wcp-reports.class.php:1092
+#, fuzzy
+#| msgid "Results only"
+msgid "Results"
+msgstr "Samo rezultati"
+
+#: wcp-reports.class.php:973 wcp-reports.class.php:1092
+#: wcp-reports.class.php:1225 admin/wcp-matches.class.php:235
+msgid "Res"
+msgstr "Rez"
+
+#: wcp-reports.class.php:1011 wcp-reports.class.php:1260
+msgid "Total"
+msgstr "Total"
+
+#: wcp-reports.class.php:1225
+#, fuzzy
+#| msgid "Results only"
+msgid "Result"
+msgstr "Samo rezultati"
+
+#: wcp-widgets.class.php:20
+#, fuzzy
+#| msgid "Display Leaders of World Cup Predictor"
+msgid "Display Leaders of WCP"
+msgstr "Prikaži lidere Igre"
+
+#: wcp-widgets.class.php:21
+msgid "WCP Top Ranking"
+msgstr "Top Ranking Igre"
+
+#: wcp-widgets.class.php:84
+msgid "Display Rankings."
+msgstr "Prikaži rezultate"
+
+#: wcp-widgets.class.php:85 wcp-widgets.class.php:169 wcp-widgets.class.php:228
+#: wcp-widgets.class.php:280
+msgid "Title:"
+msgstr "Naslov:"
+
+#: wcp-widgets.class.php:88
+msgid "Max rankings to show:"
+msgstr "Maksimalan broj rangiranih za prikaz"
+
+#: wcp-widgets.class.php:91
+msgid "Show Avatars:"
+msgstr "Prikaži avatare:"
+
+#: wcp-widgets.class.php:94
+msgid "CSS for current user:"
+msgstr "CSS za aktuelnog korisnika"
+
+#: wcp-widgets.class.php:97
+msgid "Full rankings page URL:"
+msgstr "Cela tabela - URL stranice "
+
+#: wcp-widgets.class.php:100
+msgid "Full rankings link name:"
+msgstr "Naziv linka za celu tabelu"
+
+#: wcp-widgets.class.php:112
+#, fuzzy
+#| msgid "Display User Predictions of World Cup"
+msgid "Display User Predictions of WCP"
+msgstr "Prikaži korisničke prognoze za Svetsko prvenstvo"
+
+#: wcp-widgets.class.php:113
+msgid "WCP User Predictions"
+msgstr "WCP korisničke prognoze"
+
+#: wcp-widgets.class.php:168
+msgid "Display User Predictions."
+msgstr "Prikaži korisničke prognoze"
+
+#: wcp-widgets.class.php:172
+msgid "My predictions page URL:"
+msgstr ""
+
+#: wcp-widgets.class.php:175
+msgid "My predictions link name:"
+msgstr ""
+
+#: wcp-widgets.class.php:178
+msgid "Show Results:"
+msgstr "Pokaži rezultate:"
+
+#: wcp-widgets.class.php:190
+#, fuzzy
+#| msgid "Display Championship Standings."
+msgid "Display Championship Standings"
+msgstr "Prikaži poredak svetskog prvenstva."
+
+#: wcp-widgets.class.php:191
+#, fuzzy
+#| msgid "WCP Top Ranking"
+msgid "WCP Standings"
+msgstr "Top Ranking Igre"
+
+#: wcp-widgets.class.php:227
+msgid "Display Championship Standings."
+msgstr "Prikaži poredak svetskog prvenstva."
+
+#: wcp-widgets.class.php:240
+msgid "Show the total points of current user"
+msgstr ""
+
+#: wcp-widgets.class.php:241
+msgid "WCP My Points"
+msgstr ""
+
+#: wcp-widgets.class.php:256
+#, php-format
+msgid "You currently have %d points"
+msgstr ""
+
+#: wcp-widgets.class.php:279
+msgid "Show Total Points."
+msgstr ""
+
+#: admin/wcp-admin.class.php:186
+msgid "Plugin successfully activated"
+msgstr ""
+
+#: admin/wcp-admin.class.php:209
+msgid "WCP Menu"
+msgstr "Svetsko prvenstvo - Meni"
+
+#: admin/wcp-admin.class.php:209
+msgid "WCP Cup"
+msgstr "Svetsko prvenstvo"
+
+#: admin/wcp-admin.class.php:210
+msgid "Overview"
+msgstr "Pregled"
+
+#: admin/wcp-admin.class.php:211
+msgid "Teams and Matches"
+msgstr "Timovi i utakmice"
+
+#: admin/wcp-admin.class.php:213
+msgid "Help"
+msgstr "Pomoć"
+
+#: admin/wcp-admin.class.php:267
+msgid "Are you enjoying this plugin?  Please consider donating."
+msgstr ""
+
+#: admin/wcp-admin.class.php:276
+msgid "Already donated"
+msgstr ""
+
+#: admin/wcp-admin.class.php:288
+msgid "Countdown clock format"
+msgstr "Odbrojavanje - format sata"
+
+#: admin/wcp-admin.class.php:292
+msgid ""
+"Convert kickoff times to local timezone. If unchecked kickoff times are "
+"displayed as match local time"
+msgstr ""
+"Promeni početno vreme u lokalno vreme. Ako je odčekirano, vreme početka "
+"utakmice je prikazano kao lokalno vreme na meču"
+
+#: admin/wcp-admin.class.php:296
+msgid "Show users predictions before kickoff"
+msgstr "Prikaži prognoze korisnika pre početka utakmice"
+
+#: admin/wcp-admin.class.php:300
+msgid "Separator used in scores of matches"
+msgstr "Сепаратор користи у десетине утакмица"
+
+#: admin/wcp-admin.class.php:304
+msgid "Page Predictions by Match"
+msgstr "Listaj predikcije po meču"
+
+#: admin/wcp-admin.class.php:306 admin/wcp-admin.class.php:326
+msgid "Choose Page"
+msgstr "Izaberi stranicu"
+
+#: admin/wcp-admin.class.php:324
+msgid "Page Predictions of User"
+msgstr "Страница Предвиђања Корисника"
+
+#: admin/wcp-admin.class.php:345
+msgid "Save Changes"
+msgstr "Sačuvaj promene"
+
+#: admin/wcp-matches.class.php:70 admin/wcp-matches.class.php:121
+#: admin/wcp-predictions.class.php:61 admin/wcp-predictions.class.php:79
+#: admin/wcp-predictions.class.php:102 admin/wcp-scoring.class.php:95
+#: admin/wcp-stages.class.php:52 admin/wcp-stages.class.php:71
+#: admin/wcp-stages.class.php:95 admin/wcp-teams.class.php:54
+#: admin/wcp-teams.class.php:74 admin/wcp-teams.class.php:97
+#: admin/wcp-venues.class.php:53 admin/wcp-venues.class.php:72
+#: admin/wcp-venues.class.php:95
+msgid "Changes saved"
+msgstr "Promene sačuvane"
+
+#: admin/wcp-matches.class.php:98
+msgid "Changes saved and prediction points updated"
+msgstr "Promene sačuvane i bodovi prognoza ažurirani"
+
+#: admin/wcp-matches.class.php:128
+msgid "Manage matches"
+msgstr "Uredi mečeve"
+
+#: admin/wcp-matches.class.php:130
+msgid ""
+"Once the match has finished edit the match, enter the score and check "
+"\"Match Finished\"."
+msgstr ""
+"Kada se meč završi uredi meč, unesi rezultat i čekiraj \"Meč završen\"."
+
+#: admin/wcp-matches.class.php:141
+msgid "Match#"
+msgstr "Meč#"
+
+#: admin/wcp-matches.class.php:145 admin/wcp-matches.class.php:232
+#: admin/wcp-overview.class.php:40
+msgid "Venue"
+msgid_plural "Venues"
+msgstr[0] "Mesto održavanja"
+msgstr[1] "Mesta održavanja"
+msgstr[2] ""
+
+#: admin/wcp-matches.class.php:147
+msgid "Select Venue"
+msgstr "Izaberi mesto održavanja"
+
+#: admin/wcp-matches.class.php:150 admin/wcp-matches.class.php:233
+#: admin/wcp-predictions.class.php:221 admin/wcp-results.class.php:74
+msgid "Stage"
+msgstr "Stadijum"
+
+#: admin/wcp-matches.class.php:152
+msgid "Select Stage"
+msgstr "Izaberi stadijum"
+
+#: admin/wcp-matches.class.php:155
+msgid "Kickoff date time (Must be UTC)"
+msgstr "Датум Кицкофф време (Мора бити УТЦ)"
+
+#: admin/wcp-matches.class.php:159
+msgid "Team A"
+msgstr "Tim A"
+
+#: admin/wcp-matches.class.php:161 admin/wcp-matches.class.php:170
+msgid "Select Team"
+msgstr "Izaberi Tim"
+
+#: admin/wcp-matches.class.php:162 admin/wcp-predictions.class.php:129
+msgid "Goals A"
+msgstr "Golovi A"
+
+#: admin/wcp-matches.class.php:164 admin/wcp-predictions.class.php:131
+msgid "Penalties A"
+msgstr "Penali A"
+
+#: admin/wcp-matches.class.php:168
+msgid "Team B"
+msgstr "Tim B"
+
+#: admin/wcp-matches.class.php:171 admin/wcp-predictions.class.php:135
+msgid "Goals B"
+msgstr "Golovi B"
+
+#: admin/wcp-matches.class.php:173 admin/wcp-predictions.class.php:137
+msgid "Penalties B"
+msgstr "Penali B"
+
+#: admin/wcp-matches.class.php:181
+msgid "Match finished"
+msgstr "Završen meč"
+
+#: admin/wcp-matches.class.php:190
+msgid "Modify Match"
+msgstr "Uredi meč"
+
+#: admin/wcp-matches.class.php:191 admin/wcp-predictions.class.php:164
+#: admin/wcp-stages.class.php:128 admin/wcp-teams.class.php:136
+#: admin/wcp-venues.class.php:134
+msgid "Cancel"
+msgstr "Odustani"
+
+#: admin/wcp-matches.class.php:197
+msgid "Add Match"
+msgstr "Dodaj meč"
+
+#: admin/wcp-matches.class.php:229 admin/wcp-predictions.class.php:216
+#: admin/wcp-stages.class.php:155 admin/wcp-teams.class.php:166
+#: admin/wcp-venues.class.php:164
+msgid "Del"
+msgstr "Obriši"
+
+#: admin/wcp-matches.class.php:230 admin/wcp-predictions.class.php:217
+#: admin/wcp-results.class.php:72 admin/wcp-stages.class.php:156
+#: admin/wcp-teams.class.php:167 admin/wcp-venues.class.php:165
+msgid "ID"
+msgstr "ID"
+
+#: admin/wcp-matches.class.php:231 admin/wcp-predictions.class.php:220
+#: admin/wcp-results.class.php:73
+msgid "#"
+msgstr "#"
+
+#: admin/wcp-matches.class.php:234 admin/wcp-results.class.php:75
+msgid "Kickoff"
+msgstr "Početak"
+
+#: admin/wcp-matches.class.php:237 admin/wcp-predictions.class.php:223
+#: admin/wcp-results.class.php:77
+msgid "A"
+msgstr "A"
+
+#: admin/wcp-matches.class.php:239 admin/wcp-predictions.class.php:225
+#: admin/wcp-results.class.php:79
+msgid "B"
+msgstr "B"
+
+#: admin/wcp-matches.class.php:241
+msgid "E.T."
+msgstr "Preostalo vreme"
+
+#: admin/wcp-matches.class.php:242 admin/wcp-predictions.class.php:227
+#: admin/wcp-results.class.php:81 admin/wcp-stages.class.php:160
+#: admin/wcp-teams.class.php:173 admin/wcp-venues.class.php:170
+msgid "Last Modified"
+msgstr "Poslednja promena"
+
+#: admin/wcp-matches.class.php:251
+msgid "Modify this match"
+msgstr "Uredi ovaj meč"
+
+#: admin/wcp-matches.class.php:280 admin/wcp-predictions.class.php:271
+#: admin/wcp-stages.class.php:181 admin/wcp-teams.class.php:196
+#: admin/wcp-venues.class.php:192
+msgid "Delete Selected"
+msgstr "Obriši izabrano"
+
+#: admin/wcp-matches.class.php:293
+msgid "Match#, and goals must be numeric"
+msgstr "Meč#, i golovi moraju biti numerici"
+
+#: admin/wcp-matches.class.php:298 admin/wcp-predictions.class.php:301
+msgid "Penalties must be numeric"
+msgstr "Penali moraju biti numerici"
+
+#: admin/wcp-matches.class.php:303
+msgid "Select two different teams"
+msgstr "Izaberi dva različita tima"
+
+#: admin/wcp-matches.class.php:308
+msgid "Select a venue and stage"
+msgstr "Izaberi mesto održavanja i stadijum"
+
+#: admin/wcp-matches.class.php:313
+msgid "Kickoff must be valid YYYY-MM-DD HH:MM:SS date time format."
+msgstr "Početak meča mora biti u validnom YYYY-MM-DD HH:MM:SS formatu"
+
+#: admin/wcp-matches.class.php:410
+#, fuzzy
+#| msgid "Can not delete a team with matches"
+msgid "Can not delete a match with predictions"
+msgstr "Ne može se izbrisati tim sa mečevima"
+
+#: admin/wcp-menu.class.php:23 admin/wcp-overview.class.php:72
+msgid "WCP Manager"
+msgstr "WCP Manager"
+
+#: admin/wcp-menu.class.php:28
+msgid "Teams"
+msgstr "Timovi"
+
+#: admin/wcp-menu.class.php:29
+msgid "Venues"
+msgstr "Stadioni"
+
+#: admin/wcp-menu.class.php:30
+msgid "Stages"
+msgstr "Stadijumi"
+
+#: admin/wcp-menu.class.php:31
+msgid "Matches"
+msgstr "Mečevi"
+
+#: admin/wcp-menu.class.php:32 admin/wcp-menu.class.php:67
+msgid "Group Results"
+msgstr "Rezultati po grupama"
+
+#: admin/wcp-overview.class.php:30
+msgid "At a Glance"
+msgstr "Na prvi pogled"
+
+#: admin/wcp-overview.class.php:54
+msgid "Here you can import your teams, venues and match schedules."
+msgstr "Ovde možeš importovati svoje timove, stadione i rasporede mečeva"
+
+#: admin/wcp-overview.class.php:58
+msgid "Championship"
+msgstr ""
+
+#: admin/wcp-overview.class.php:60
+msgid "Confederations Cup 2017"
+msgstr ""
+
+#: admin/wcp-overview.class.php:61
+msgid "Euro 2016"
+msgstr ""
+
+#: admin/wcp-overview.class.php:62
+#, fuzzy
+#| msgid "World Cup Predictor"
+msgid "World Cup 2014"
+msgstr "World Cup Predictor"
+
+#: admin/wcp-overview.class.php:66
+msgid "Import"
+msgstr "Importuj"
+
+#: admin/wcp-overview.class.php:72
+msgid "no"
+msgstr "ne"
+
+#: admin/wcp-overview.class.php:73
+#, php-format
+msgid "You currently have %s rights."
+msgstr "Trenutno imaš %s tačnih."
+
+#: admin/wcp-overview.class.php:99
+#, php-format
+msgid ""
+"Newsfeed could not be loaded.  Check the <a href=\"%s\">front page</a> to "
+"check for updates."
+msgstr ""
+"Vesti se ne mogu učitati.  Proveri <a href=\"%s\">front page</a> da bi "
+"proverio update-e."
+
+#: admin/wcp-overview.class.php:131
+msgid "Thank you to all donators..."
+msgstr "Hvala svim donatorima..."
+
+#: admin/wcp-overview.class.php:158
+msgid "Not set"
+msgstr "Nije podešeno"
+
+#: admin/wcp-overview.class.php:160
+msgid "On"
+msgstr "Uključeno"
+
+#: admin/wcp-overview.class.php:161
+msgid "Off"
+msgstr "Isključeno"
+
+#: admin/wcp-overview.class.php:164
+msgid "Operating System"
+msgstr "Operativni sistem"
+
+#: admin/wcp-overview.class.php:165
+msgid "Server"
+msgstr "Server"
+
+#: admin/wcp-overview.class.php:166
+msgid "MYSQL Version"
+msgstr "MYSQL Version"
+
+#: admin/wcp-overview.class.php:167
+msgid "SQL Mode"
+msgstr "SQL Mode"
+
+#: admin/wcp-overview.class.php:168
+msgid "PHP Version"
+msgstr "PHP Version"
+
+#: admin/wcp-overview.class.php:169
+msgid "PHP Safe Mode"
+msgstr "PHP Safe Mode"
+
+#: admin/wcp-overview.class.php:192
+msgid "Support Forum"
+msgstr "Форум"
+
+#: admin/wcp-overview.class.php:201
+msgid "Welcome to World Cup Predictor V "
+msgstr "Dobrodošli u World Cup Predictor V "
+
+#: admin/wcp-overview.class.php:202
+msgid "Latest News"
+msgstr "Poslednje vesti"
+
+#: admin/wcp-overview.class.php:203
+msgid "Recent donators"
+msgstr "Skorašnji donatori"
+
+#: admin/wcp-overview.class.php:204
+msgid "Server Settings"
+msgstr "Podešavanja servera"
+
+#: admin/wcp-overview.class.php:205
+msgid "Settings"
+msgstr "Podešavanja"
+
+#: admin/wcp-overview.class.php:206
+msgid "Support"
+msgstr "Podrška"
+
+#: admin/wcp-overview.class.php:213
+msgid "World Cup Predictor Overview"
+msgstr "World Cup Predictor - Pregled "
+
+#: admin/wcp-predictions.class.php:109
+msgid "Manage predictions"
+msgstr "Uredi prognoze"
+
+#: admin/wcp-predictions.class.php:111
+msgid ""
+"For a manually entered prediction the prediction time must be before the "
+"kickoff time."
+msgstr ""
+"Za manualni unos prognoza, vreme prognoza mora biti pre početka utakmice."
+
+#: admin/wcp-predictions.class.php:121
+msgid "Select user"
+msgstr "Izaberi korisnika"
+
+#: admin/wcp-predictions.class.php:126
+msgid "Select match"
+msgstr "Izaberi utakmicu"
+
+#: admin/wcp-predictions.class.php:145
+msgid "Prediction time"
+msgstr "Vreme prognoze"
+
+#: admin/wcp-predictions.class.php:150 admin/wcp-scoring.class.php:183
+msgid "All Users"
+msgstr "Svi korisnici"
+
+#: admin/wcp-predictions.class.php:152
+msgid "All Stages"
+msgstr "Svi stadijumi"
+
+#: admin/wcp-predictions.class.php:154
+msgid "All Teams"
+msgstr "Svi timovi"
+
+#: admin/wcp-predictions.class.php:156 admin/wcp-scoring.class.php:184
+msgid "Filter"
+msgstr "Filter"
+
+#: admin/wcp-predictions.class.php:163
+msgid "Modify Prediction"
+msgstr "Uredi prognozu"
+
+#: admin/wcp-predictions.class.php:169
+msgid "Add Prediction"
+msgstr "Dodaj prognozu"
+
+#: admin/wcp-predictions.class.php:208
+msgid "All times are UTC"
+msgstr "Sva vremena su UTC"
+
+#: admin/wcp-predictions.class.php:239
+msgid "Modify this prediction"
+msgstr "Izmeni ovu prognozu"
+
+#: admin/wcp-predictions.class.php:282
+msgid "All Matches"
+msgstr "Svi mečevi"
+
+#: admin/wcp-predictions.class.php:283
+msgid "Results only"
+msgstr "Samo rezultati"
+
+#: admin/wcp-predictions.class.php:284
+msgid "Pending matches only"
+msgstr "Samo aktuelni mečevi"
+
+#: admin/wcp-predictions.class.php:296
+msgid "Goals and points must be numeric"
+msgstr "Golovi i poeni moraju biti numerici"
+
+#: admin/wcp-predictions.class.php:306
+msgid "Select a user and match"
+msgstr "Izaberi korisnika i utakmicu"
+
+#: admin/wcp-predictions.class.php:311
+msgid "Prediction time must be valid YYYY-MM-DD HH:MM:SS date time format."
+msgstr "Vreme prognoze mora biti u validnom YYYY-MM-DD HH:MM:SS formatu."
+
+#: admin/wcp-results.class.php:32
+msgid "Prediction points updated."
+msgstr "Poeni od prognoza su ažurirani"
+
+#: admin/wcp-results.class.php:37
+msgid "Assign prediction scores for completed matches"
+msgstr "Prenesi rezultate prognoza u završene mečeve"
+
+#: admin/wcp-results.class.php:39
+msgid "Select each newly completed match to assign users' scores."
+msgstr "Izaberi svaki novozavršeni meč da bi dodelio korisničke poene."
+
+#: admin/wcp-results.class.php:39
+msgid "Enter Match Results"
+msgstr "Unesi rezultate meča"
+
+#: admin/wcp-results.class.php:41
+#, php-format
+msgid ""
+"Matches marked with a green tick (%s) are finished and have been scored."
+msgstr ""
+"Mečevi obeleženi sa zelenom kvačicom (%s) su završeni i dodeljeni su bodovi."
+
+#: admin/wcp-results.class.php:71
+msgid "Sel"
+msgstr "Sel"
+
+#: admin/wcp-results.class.php:119
+msgid "Score Selected"
+msgstr "Rezultat izabran"
+
+#: admin/wcp-scoring.class.php:41
+msgid "WCP Manager Predictions"
+msgstr "WCP Manager - Prognoze"
+
+#: admin/wcp-scoring.class.php:47
+msgid "Score Matches"
+msgstr "Rezultat utakmice"
+
+#: admin/wcp-scoring.class.php:48
+msgid "Users Ranking"
+msgstr "Lista korisnika"
+
+#: admin/wcp-scoring.class.php:49
+msgid "Configure Scoring"
+msgstr "Uredi bodovanje"
+
+#: admin/wcp-scoring.class.php:88
+msgid "Points must be numeric"
+msgstr "Poeni moraju biti numerici"
+
+#: admin/wcp-scoring.class.php:100
+msgid "This includes the penalties in the knockout stage if applicable"
+msgstr "Ovo uključuje i penale u nokaut fazi ako se dese"
+
+#: admin/wcp-scoring.class.php:104
+msgid "Setup points allocation"
+msgstr "Podešavanje raspodele bodova"
+
+#: admin/wcp-scoring.class.php:113
+msgid "Points for correct score"
+msgstr "Poeni za tačan rezultat"
+
+#: admin/wcp-scoring.class.php:115
+#, php-format
+msgid "For example predict 3-0 and the result is 3-0 award %d points"
+msgstr "Na primer prognoza je 3-0 a rezultat 3-0 osvaja %d poena"
+
+#: admin/wcp-scoring.class.php:118
+msgid "Points for guessing a draw"
+msgstr "Poeni za pogodjen žreb"
+
+#: admin/wcp-scoring.class.php:120
+#, php-format
+msgid "For example predict 2-2 and the result is 1-1 award %d points"
+msgstr "Na primer prognoza je 2-2 a rezultat je 1-1 osvaja %d poena"
+
+#: admin/wcp-scoring.class.php:123
+msgid "Wrong score but predicted the correct winner"
+msgstr "Pogrešan rezultat ali pogodjen pobednik"
+
+#: admin/wcp-scoring.class.php:125
+#, php-format
+msgid "For example predict 1-0 and the result is 2-0 award %d points"
+msgstr "Na primer prognoza je 1-0 a rezultat je 2-0 osvaja %d poena"
+
+#: admin/wcp-scoring.class.php:128
+#, php-format
+msgid ""
+"Points above are not cummulative, for example predict 2-2 and the result is "
+"2-2, you gain %d\n"
+"\t\t\tpoints, NOT %d points"
+msgstr ""
+"Poeni iznad nisu kumulativni, na primer prognoza je 2-2 i rezultat je 2-2, "
+"dobija se %d\n"
+"\t\t\t poena, NE %d poena"
+
+#: admin/wcp-scoring.class.php:131
+msgid "Bonus points"
+msgstr "Bonus poeni"
+
+#: admin/wcp-scoring.class.php:134
+msgid "Points for correct number of goals"
+msgstr "Poeni za tačan broj golova"
+
+#: admin/wcp-scoring.class.php:136
+#, php-format
+msgid "For example predict 3-0 and the result is 3-1 award extra %d points"
+msgstr "Na primer prognoza je 3-0 a rezultat je 3-1 dobija ekstra %d poena"
+
+#: admin/wcp-scoring.class.php:139
+msgid "Points for correct goal difference"
+msgstr "Poeni za tačnu gol razliku"
+
+#: admin/wcp-scoring.class.php:141
+#, php-format
+msgid "For example predict 5-3 and the result is 3-1 award extra %d points"
+msgstr "Na primer prognoza je 5-3 a rezultat je 3-1 dobija ekstra %d poena "
+
+#: admin/wcp-scoring.class.php:144
+msgid "Bonus points are cummulative"
+msgstr "Bonus poeni su kumulativni"
+
+#: admin/wcp-scoring.class.php:173
+msgid "Ranking and Scores"
+msgstr "Lista i Rezultati"
+
+#: admin/wcp-scoring.class.php:179
+msgid "Select Match Result"
+msgstr "Izaberi rezlutat meča"
+
+#: admin/wcp-scoring.class.php:180
+msgid "Select"
+msgstr "Izaberi"
+
+#: admin/wcp-scoring.class.php:188
+msgid "User Points"
+msgstr "Poeni korisnika"
+
+#: admin/wcp-scoring.class.php:193
+msgid "Ranking"
+msgstr "Plasman"
+
+#: admin/wcp-stages.class.php:102
+msgid "Manage stages"
+msgstr "Uredi stadijume"
+
+#: admin/wcp-stages.class.php:111 admin/wcp-stages.class.php:157
+msgid "Stage Name"
+msgstr "Naziv fazu"
+
+#: admin/wcp-stages.class.php:115 admin/wcp-stages.class.php:158
+msgid "Group Stage"
+msgstr "Grupna faza"
+
+#: admin/wcp-stages.class.php:119 admin/wcp-stages.class.php:159
+msgid "Sort Order"
+msgstr "Uredi redosled"
+
+#: admin/wcp-stages.class.php:127
+msgid "Modify Stage"
+msgstr "Izmeni fazu"
+
+#: admin/wcp-stages.class.php:133
+msgid "Add Stage"
+msgstr "Dodaj fazu"
+
+#: admin/wcp-stages.class.php:169
+msgid "Modify this stage"
+msgstr "Uredi ovu fazu"
+
+#: admin/wcp-stages.class.php:194
+msgid "Stage Name can not be empty"
+msgstr "Naziv faze ne može biti prazan"
+
+#: admin/wcp-stages.class.php:198
+msgid "Sort order must be numeric"
+msgstr "Redosled mora biti numerik"
+
+#: admin/wcp-stages.class.php:284
+msgid "Can not delete a stage with matches"
+msgstr "Ne može se obrisati faza prvenstva sa mečevima"
+
+#: admin/wcp-teams.class.php:104
+msgid "Manage teams"
+msgstr "Uredi timove"
+
+#: admin/wcp-teams.class.php:115 admin/wcp-teams.class.php:168
+msgid "Team Name"
+msgstr "Naziv tima"
+
+#: admin/wcp-teams.class.php:119 admin/wcp-teams.class.php:170
+msgid "Country Code"
+msgstr "Kod za državu"
+
+#: admin/wcp-teams.class.php:123 admin/wcp-teams.class.php:171
+msgid "Team URL"
+msgstr "URL tima"
+
+#: admin/wcp-teams.class.php:127 admin/wcp-teams.class.php:172
+msgid "Group Order"
+msgstr "Redosled u grupi"
+
+#: admin/wcp-teams.class.php:135
+msgid "Modify Team"
+msgstr "Izmeni tim"
+
+#: admin/wcp-teams.class.php:141
+msgid "Add Team"
+msgstr "Dodaj tim"
+
+#: admin/wcp-teams.class.php:169
+msgid "Flag"
+msgstr "Zastava"
+
+#: admin/wcp-teams.class.php:182
+msgid "Modify this team"
+msgstr "Izmeni ovaj tim"
+
+#: admin/wcp-teams.class.php:209
+msgid "Team Name or Country Code can not be empty"
+msgstr "Naziv tima i kod za državu ne može biti prazan"
+
+#: admin/wcp-teams.class.php:214
+msgid "Group Order must be numeric"
+msgstr "Grupni redosled ne može biti prazan"
+
+#: admin/wcp-teams.class.php:302
+msgid "Can not delete a team with matches"
+msgstr "Ne može se izbrisati tim sa mečevima"
+
+#: admin/wcp-venues.class.php:102
+msgid "Manage venues"
+msgstr "Uredi mesto održavanja"
+
+#: admin/wcp-venues.class.php:113 admin/wcp-venues.class.php:166
+msgid "Venue Name"
+msgstr "Ime mesta održavanja"
+
+#: admin/wcp-venues.class.php:117 admin/wcp-venues.class.php:167
+msgid "Venue URL"
+msgstr "URL mesta održavanja"
+
+#: admin/wcp-venues.class.php:121 admin/wcp-venues.class.php:168
+msgid "Stadium"
+msgstr "Stadion"
+
+#: admin/wcp-venues.class.php:125
+msgid "UTC Offset in hours"
+msgstr "UTC Offset u satima"
+
+#: admin/wcp-venues.class.php:133
+msgid "Modify Venue"
+msgstr "Uredi mesto održavanja"
+
+#: admin/wcp-venues.class.php:139
+msgid "Add Venue"
+msgstr "Dodaj mesto održavanja"
+
+#: admin/wcp-venues.class.php:169
+msgid "UTC+"
+msgstr ""
+
+#: admin/wcp-venues.class.php:179
+msgid "Modify this venue"
+msgstr "Izmeni ovo mesto održavanja"
+
+#: admin/wcp-venues.class.php:205
+msgid "Venue Name or Stadium can not be empty"
+msgstr "Naziv mesta održavanja i stadion ne mogu biti prazni"
+
+#: admin/wcp-venues.class.php:210
+msgid "UTC Offset must be numeric"
+msgstr "UTC Offset mora biti numerik"
+
+#: admin/wcp-venues.class.php:298
+msgid "Can not delete a venue with matches"
+msgstr "Ne može se obrisati mesto održavanja sa mečevima"
+
+#: admin/champs/euro-2016.php:139 admin/champs/wcup-2014.php:167
+msgid "Match data imported"
+msgstr "Podaci o utakmici - importovani"
+
+#: admin/wcp-overview.class.php:61
+msgid "Here you can create predictions pages, group tables and rankings automatically."
+msgstr ""
+
+#: admin/wcp-overview.class.php:65
+msgid "Create Pages"
+msgstr ""
+
+#: admin/wcp-overview.class.php:79
+msgid "Champions League 2019/2020"
+msgstr ""
+
+#: admin/wcp-overview.class.php:240
+msgid "Predictions by Match"
+msgstr ""
+
+#: admin/wcp-overview.class.php:246
+msgid "Predictions of User"
+msgstr ""
+
+#: admin/wcp-overview.class.php:258
+msgid "Group Tables"
+msgstr ""
+
+#~ msgid "Timezone difference must be in [+/-]HH:MM format, e.g. +03:00."
+#~ msgstr "Vremenska razlika mora biti u [+/-]HH:MM formatu, npr. +03:00."
+
+#~ msgid "Server local time"
+#~ msgstr "Lokalno vreme servera"
+
+#~ msgid "South African Time SAST"
+#~ msgstr "Južno Afričko vreme SAST"
+
+#~ msgid "Calculated Difference"
+#~ msgstr "Sračunata razlika"
+
+#~ msgid "Ensure this timezone difference is correct or change it below."
+#~ msgstr "Proverite da li je ova vremenska zona tačna ili je promenite dole."
+
+#~ msgid "Add +/- HH:MM to Server Local Time"
+#~ msgstr "Dodaj +/- HH:MM na Lokalno vreme servera"
+
+#~ msgid "Link to Authors site in footer"
+#~ msgstr "Link ka autorovom sajtu u futeru"
+
+#~ msgid "Knockout Results"
+#~ msgstr "Rezultati u nokaut fazi"
+
+#~ msgid "Donate"
+#~ msgstr "Doniraj"
+
+#~ msgid "Name"
+#~ msgstr "Ime"
+
+#~ msgid "Group"
+#~ msgstr "Grupa"
+
+#~ msgid "Sort"
+#~ msgstr "Sortiraj"
+
+#~ msgid "You must be logged in to predict."
+#~ msgstr "Morate biti ulogovani da biste igrali prognoze"
+
+#~ msgid "Penalty"
+#~ msgstr "Penal"
+
+#~ msgid "shootout"
+#~ msgstr "Penali"
+
+#~ msgid "vs"
+#~ msgstr "vs"
+
+#~ msgid "Display World Cup Predictions"
+#~ msgstr "Prikaži World Cup prognoze"
+
+#~ msgid "Display Users World Cup Predictions"
+#~ msgstr "Prikaži korisničke World Cup prognoze"
+
+#~ msgid "World Cup User Predictions"
+#~ msgstr "World Cup korisničke prognoze"
+
+#~ msgid "Show Total:"
+#~ msgstr "Pokaži zbir:"
+
+#~ msgid "http://www.ianhaycox.com/worldcuppredictor"
+#~ msgstr "http://brazigol.com/"
+
+#~ msgid ""
+#~ "World Cup Predictor - Guess the outcome of World Cup football/soccer "
+#~ "games, aka Fantasy Football"
+#~ msgstr ""
+#~ "Prognoze svetskog prvenstva - Pogodi rezultate fudbalskih utakmica na "
+#~ "prvenstvu!"
+
+#~ msgid "Ian Haycox"
+#~ msgstr "Ian Haycox"
+
+#~ msgid "http://www.ianhaycox.com"
+#~ msgstr "http://www.ianhaycox.com"
+
+#~ msgid "Brazilian Time BRST"
+#~ msgstr "Brazilsko vreme BRST"
+
+#~ msgid ""
+#~ "Match times are currently set to match local time, please click here to "
+#~ "convert to your time zone."
+#~ msgstr ""
+#~ "Vremena mečeva su trenutno podešena na lokalno vreme, molimo vas kliknite "
+#~ "ovde da konvertujete na vašu lokalnu vremensku zonu."
+
+#~ msgid ""
+#~ "Match times are currently set to <strong>your timezone</strong>, please "
+#~ "click here to revert to local time."
+#~ msgstr ""
+#~ "Vremena utakmica su podešena na <strong>vašu vremensku zonu</strong>, "
+#~ "molimo kliknite da vratite na lokalno vreme."
+
+#~ msgid "Full ranking"
+#~ msgstr "Cela tabela"
+
+#~ msgid "Adjust Knockout Table to the theme Twenty Fourteen"
+#~ msgstr "Podesi tabelu nokaut faze na WP temu Twenty Fourteen"
+
+#~ msgid "Page Predictions by User"
+#~ msgstr "Listaj prognoze po korisniku"

@@ -1,0 +1,1219 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: World Cup Predictor 1.2 Russian\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/world-cup-predictor\n"
+"POT-Creation-Date: 2017-04-28 16:28-0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Landoweb Programador <contato@landoweb.com.br>\n"
+"Language-Team: BarBeerBlues <oleslukas@gmail.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.0.1\n"
+
+#: wcp-predict.class.php:50
+#, php-format
+msgid ""
+"Please <a href=\"%1$s\">login</a> or <a href=\"%2$s\">register</a> to make a "
+"prediction"
+msgstr ""
+"Пожалуйста, <a href=\"%1$s\">логин</a> или <a href=\"%2$s"
+"\">зарегистрируйтесь</a> сделать прогноз"
+
+#: wcp-predict.class.php:105 wcp-predict.class.php:436
+msgid "No matches available in this championship."
+msgstr "Нет соответствий в этом чемпионате"
+
+#: wcp-predict.class.php:108 admin/wcp-scoring.class.php:146
+msgid "Save"
+msgstr "Сохранить"
+
+#: wcp-predict.class.php:147 wcp-reports.class.php:400
+#: wcp-reports.class.php:418
+msgid "Penalties"
+msgstr "Пенальти"
+
+#: wcp-predict.class.php:221
+msgid "Prediction saved"
+msgstr "Прогноз сохранен"
+
+#: wcp-predict.class.php:235 wcp-predict.class.php:244
+#: wcp-predict.class.php:253 wcp-predict.class.php:265
+msgid "Match score must be numeric"
+msgstr "счет матча должен быть числовым"
+
+#: wcp-predict.class.php:273
+msgid "You can only enter penalties for a draw"
+msgstr "можно вводить только пенальти за ничью"
+
+#: wcp-predict.class.php:302
+msgid "Missing match. Prediction not saved."
+msgstr "Отсутствует матч. Прогноз не сохранен"
+
+#: wcp-predict.class.php:333
+msgid "Error saving prediction"
+msgstr "Ошибка сохранения прогноза"
+
+#: wcp-predict.class.php:338
+msgid "Some, or all, of your predictions are too late and will not be counted."
+msgstr ""
+"Некоторые из них или все ваши прогнозы были сделаны слишком поздно и не "
+"будут засчитаны."
+
+#: wcp-predict.class.php:359
+msgid "No data to save"
+msgstr "Нет данных для сохранения"
+
+#: wcp-predict.class.php:418 admin/wcp-admin.class.php:168
+#: admin/wcp-admin.class.php:289
+msgid "Next prediction deadline in"
+msgstr "Срок следующего прогноза заканчивается"
+
+#: wcp-predict.class.php:428
+msgid "Too Late - Prediction deadline passed"
+msgstr "Поздно - Срок прогноз вышел"
+
+#: wcp-reports.class.php:33 admin/wcp-matches.class.php:236
+#: admin/wcp-matches.class.php:240 admin/wcp-overview.class.php:36
+#: admin/wcp-predictions.class.php:222 admin/wcp-predictions.class.php:226
+#: admin/wcp-results.class.php:76 admin/wcp-results.class.php:80
+msgid "Team"
+msgid_plural "Teams"
+msgstr[0] "Команда"
+msgstr[1] "Команды"
+msgstr[2] ""
+
+#: wcp-reports.class.php:34
+msgid "MP"
+msgstr "MP"
+
+#: wcp-reports.class.php:35
+msgid "Matches Played"
+msgstr "матчей"
+
+#: wcp-reports.class.php:36
+msgid "W"
+msgstr "П"
+
+#: wcp-reports.class.php:37
+msgid "Won"
+msgstr "победил"
+
+#: wcp-reports.class.php:38
+msgid "D"
+msgstr "Н"
+
+#: wcp-reports.class.php:39
+msgid "Draw"
+msgstr "Ничья"
+
+#: wcp-reports.class.php:40
+msgid "L"
+msgstr "Пор"
+
+#: wcp-reports.class.php:41
+msgid "Lost"
+msgstr "Поражение"
+
+#: wcp-reports.class.php:42
+msgid "GF"
+msgstr "ГУ"
+
+#: wcp-reports.class.php:43
+msgid "Goals For"
+msgstr "Голов у"
+
+#: wcp-reports.class.php:44
+msgid "GA"
+msgstr "ГП"
+
+#: wcp-reports.class.php:45
+msgid "Goals Against"
+msgstr "Голов против"
+
+#: wcp-reports.class.php:46
+#, fuzzy
+#| msgid "D"
+msgid "GD"
+msgstr "Н"
+
+#: wcp-reports.class.php:47
+#, fuzzy
+#| msgid "Calculated Difference"
+msgid "Goal difference"
+msgstr "Расчетная разница"
+
+#: wcp-reports.class.php:48 wcp-reports.class.php:660 wcp-reports.class.php:814
+#: wcp-reports.class.php:893 wcp-reports.class.php:978
+#: wcp-reports.class.php:1227
+msgid "Pts"
+msgstr "Очк"
+
+#: wcp-reports.class.php:49 wcp-reports.class.php:660 wcp-reports.class.php:814
+#: wcp-reports.class.php:978 wcp-reports.class.php:1227
+#: admin/wcp-predictions.class.php:141 admin/wcp-predictions.class.php:219
+msgid "Points"
+msgstr "Очки"
+
+#: wcp-reports.class.php:400 wcp-reports.class.php:418
+msgid "pen."
+msgstr "Пен."
+
+#: wcp-reports.class.php:402 wcp-reports.class.php:420
+#: admin/wcp-matches.class.php:177
+msgid "Extra Time"
+msgstr "Дополнительное время"
+
+#: wcp-reports.class.php:402 wcp-reports.class.php:420
+msgid "a.e.t."
+msgstr "a.e.t."
+
+#: wcp-reports.class.php:537 wcp-reports.class.php:683
+#: wcp-reports.class.php:977 wcp-reports.class.php:1096
+#: admin/wcp-admin.class.php:212 admin/wcp-scoring.class.php:46
+msgid "Predictions"
+msgstr "Прогнозы"
+
+#: wcp-reports.class.php:660 admin/wcp-predictions.class.php:120
+#: admin/wcp-predictions.class.php:218
+msgid "User"
+msgstr "Пользователь"
+
+#: wcp-reports.class.php:814 wcp-reports.class.php:893
+#: wcp-reports.class.php:1226 admin/wcp-overview.class.php:48
+msgid "Prediction"
+msgid_plural "Predictions"
+msgstr[0] "Прогноз"
+msgstr[1] "Прогнозы"
+msgstr[2] ""
+
+#: wcp-reports.class.php:814 wcp-reports.class.php:977
+#: wcp-reports.class.php:1096 wcp-reports.class.php:1226
+msgid "Pred"
+msgstr "прогноз"
+
+#: wcp-reports.class.php:843 wcp-reports.class.php:905
+#: wcp-reports.class.php:1176 wcp-reports.class.php:1267
+msgid "Back"
+msgstr ""
+
+#: wcp-reports.class.php:971 wcp-reports.class.php:1090
+#: wcp-reports.class.php:1224 admin/wcp-overview.class.php:44
+#: admin/wcp-predictions.class.php:124
+msgid "Match"
+msgid_plural "Matches"
+msgstr[0] "Матч"
+msgstr[1] "Матчи"
+msgstr[2] ""
+
+#: wcp-reports.class.php:973 wcp-reports.class.php:1092
+#, fuzzy
+#| msgid "Results only"
+msgid "Results"
+msgstr "Итоги только"
+
+#: wcp-reports.class.php:973 wcp-reports.class.php:1092
+#: wcp-reports.class.php:1225 admin/wcp-matches.class.php:235
+msgid "Res"
+msgstr "Рез"
+
+#: wcp-reports.class.php:1011 wcp-reports.class.php:1260
+msgid "Total"
+msgstr "Всего"
+
+#: wcp-reports.class.php:1225
+#, fuzzy
+#| msgid "Results only"
+msgid "Result"
+msgstr "Итоги только"
+
+#: wcp-widgets.class.php:20
+#, fuzzy
+#| msgid "Display Leaders of World Cup Predictor"
+msgid "Display Leaders of WCP"
+msgstr "Показать Лидеры Кубка мира Predictor"
+
+#: wcp-widgets.class.php:21
+#, fuzzy
+#| msgid "Ranking"
+msgid "WCP Top Ranking"
+msgstr "Рейтинг"
+
+#: wcp-widgets.class.php:84
+msgid "Display Rankings."
+msgstr "Показать рейтинг"
+
+#: wcp-widgets.class.php:85 wcp-widgets.class.php:169 wcp-widgets.class.php:228
+#: wcp-widgets.class.php:280
+msgid "Title:"
+msgstr "Титул:"
+
+#: wcp-widgets.class.php:88
+msgid "Max rankings to show:"
+msgstr "показать макс рейтинг:"
+
+#: wcp-widgets.class.php:91
+msgid "Show Avatars:"
+msgstr "Показывать аватары:"
+
+#: wcp-widgets.class.php:94
+msgid "CSS for current user:"
+msgstr "CSS для текущего пользователя:"
+
+#: wcp-widgets.class.php:97
+msgid "Full rankings page URL:"
+msgstr "URL макс рейтинга:"
+
+#: wcp-widgets.class.php:100
+msgid "Full rankings link name:"
+msgstr "линк страницы макс рейтинга:"
+
+#: wcp-widgets.class.php:112
+#, fuzzy
+#| msgid "Display User Predictions."
+msgid "Display User Predictions of WCP"
+msgstr "Показать пользователя Прогнозов."
+
+#: wcp-widgets.class.php:113
+#, fuzzy
+#| msgid "WCP Manager Predictions"
+msgid "WCP User Predictions"
+msgstr "Менеджер Прогнозов Кубка мира"
+
+#: wcp-widgets.class.php:168
+msgid "Display User Predictions."
+msgstr "Показать пользователя Прогнозов."
+
+#: wcp-widgets.class.php:172
+msgid "My predictions page URL:"
+msgstr ""
+
+#: wcp-widgets.class.php:175
+msgid "My predictions link name:"
+msgstr ""
+
+#: wcp-widgets.class.php:178
+msgid "Show Results:"
+msgstr "Показать результаты:"
+
+#: wcp-widgets.class.php:190
+msgid "Display Championship Standings"
+msgstr ""
+
+#: wcp-widgets.class.php:191
+msgid "WCP Standings"
+msgstr ""
+
+#: wcp-widgets.class.php:227
+#, fuzzy
+#| msgid "Display Rankings."
+msgid "Display Championship Standings."
+msgstr "Показать рейтинг"
+
+#: wcp-widgets.class.php:240
+msgid "Show the total points of current user"
+msgstr ""
+
+#: wcp-widgets.class.php:241
+msgid "WCP My Points"
+msgstr ""
+
+#: wcp-widgets.class.php:256
+#, php-format
+msgid "You currently have %d points"
+msgstr ""
+
+#: wcp-widgets.class.php:279
+msgid "Show Total Points."
+msgstr ""
+
+#: admin/wcp-admin.class.php:186
+msgid "Plugin successfully activated"
+msgstr ""
+
+#: admin/wcp-admin.class.php:209
+msgid "WCP Menu"
+msgstr "Кубок мира Меню"
+
+#: admin/wcp-admin.class.php:209
+msgid "WCP Cup"
+msgstr "Кубок мира"
+
+#: admin/wcp-admin.class.php:210
+msgid "Overview"
+msgstr "Обзор"
+
+#: admin/wcp-admin.class.php:211
+msgid "Teams and Matches"
+msgstr "Команды и Матчи"
+
+#: admin/wcp-admin.class.php:213
+msgid "Help"
+msgstr "Помощь"
+
+#: admin/wcp-admin.class.php:267
+msgid "Are you enjoying this plugin?  Please consider donating."
+msgstr ""
+
+#: admin/wcp-admin.class.php:276
+msgid "Already donated"
+msgstr ""
+
+#: admin/wcp-admin.class.php:288
+msgid "Countdown clock format"
+msgstr "Формат Обратный отсчет часы"
+
+#: admin/wcp-admin.class.php:292
+msgid ""
+"Convert kickoff times to local timezone. If unchecked kickoff times are "
+"displayed as match local time"
+msgstr ""
+"Преобразование раз стартовых в локальный часовой пояс. Если раз "
+"беспрепятственно зарезки боковых стволов отображаются как матч по местному "
+"времени"
+
+#: admin/wcp-admin.class.php:296
+msgid "Show users predictions before kickoff"
+msgstr "Показать пользователей прогнозы до стартового"
+
+#: admin/wcp-admin.class.php:300
+msgid "Separator used in scores of matches"
+msgstr "Сепаратор используется в десятках матчей"
+
+#: admin/wcp-admin.class.php:304
+msgid "Page Predictions by Match"
+msgstr "Страница Прогнозы по матче"
+
+#: admin/wcp-admin.class.php:306 admin/wcp-admin.class.php:326
+msgid "Choose Page"
+msgstr ""
+
+#: admin/wcp-admin.class.php:324
+msgid "Page Predictions of User"
+msgstr "Страница Предсказания пользователя"
+
+#: admin/wcp-admin.class.php:345
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: admin/wcp-matches.class.php:70 admin/wcp-matches.class.php:121
+#: admin/wcp-predictions.class.php:61 admin/wcp-predictions.class.php:79
+#: admin/wcp-predictions.class.php:102 admin/wcp-scoring.class.php:95
+#: admin/wcp-stages.class.php:52 admin/wcp-stages.class.php:71
+#: admin/wcp-stages.class.php:95 admin/wcp-teams.class.php:54
+#: admin/wcp-teams.class.php:74 admin/wcp-teams.class.php:97
+#: admin/wcp-venues.class.php:53 admin/wcp-venues.class.php:72
+#: admin/wcp-venues.class.php:95
+msgid "Changes saved"
+msgstr "Изменения сохранены"
+
+#: admin/wcp-matches.class.php:98
+msgid "Changes saved and prediction points updated"
+msgstr "Изменения сохранены и точки прогнозирования обновляется"
+
+#: admin/wcp-matches.class.php:128
+msgid "Manage matches"
+msgstr "Управление матчами"
+
+#: admin/wcp-matches.class.php:130
+msgid ""
+"Once the match has finished edit the match, enter the score and check "
+"\"Match Finished\"."
+msgstr "После окончания матча введите результат и проверку \"матч завершен\"."
+
+#: admin/wcp-matches.class.php:141
+msgid "Match#"
+msgstr "Матч#"
+
+#: admin/wcp-matches.class.php:145 admin/wcp-matches.class.php:232
+#: admin/wcp-overview.class.php:40
+msgid "Venue"
+msgid_plural "Venues"
+msgstr[0] "Место встречи"
+msgstr[1] "Места встречи"
+msgstr[2] ""
+
+#: admin/wcp-matches.class.php:147
+msgid "Select Venue"
+msgstr "Выбор Места встречи"
+
+#: admin/wcp-matches.class.php:150 admin/wcp-matches.class.php:233
+#: admin/wcp-predictions.class.php:221 admin/wcp-results.class.php:74
+msgid "Stage"
+msgstr "Группа"
+
+#: admin/wcp-matches.class.php:152
+msgid "Select Stage"
+msgstr "Выбор Группы"
+
+#: admin/wcp-matches.class.php:155
+msgid "Kickoff date time (Must be UTC)"
+msgstr "Даты и времени Kickoff (Должно быть UTC)"
+
+#: admin/wcp-matches.class.php:159
+msgid "Team A"
+msgstr "Команда A"
+
+#: admin/wcp-matches.class.php:161 admin/wcp-matches.class.php:170
+msgid "Select Team"
+msgstr "Выбор команды"
+
+#: admin/wcp-matches.class.php:162 admin/wcp-predictions.class.php:129
+msgid "Goals A"
+msgstr "Голы A"
+
+#: admin/wcp-matches.class.php:164 admin/wcp-predictions.class.php:131
+msgid "Penalties A"
+msgstr "Пенальти A"
+
+#: admin/wcp-matches.class.php:168
+msgid "Team B"
+msgstr "Команда B"
+
+#: admin/wcp-matches.class.php:171 admin/wcp-predictions.class.php:135
+msgid "Goals B"
+msgstr "Голы B"
+
+#: admin/wcp-matches.class.php:173 admin/wcp-predictions.class.php:137
+msgid "Penalties B"
+msgstr "Пенальти B"
+
+#: admin/wcp-matches.class.php:181
+msgid "Match finished"
+msgstr "Матч закончился"
+
+#: admin/wcp-matches.class.php:190
+msgid "Modify Match"
+msgstr "Изменить Матч"
+
+#: admin/wcp-matches.class.php:191 admin/wcp-predictions.class.php:164
+#: admin/wcp-stages.class.php:128 admin/wcp-teams.class.php:136
+#: admin/wcp-venues.class.php:134
+msgid "Cancel"
+msgstr "Отмена"
+
+#: admin/wcp-matches.class.php:197
+msgid "Add Match"
+msgstr "Добавить Матч"
+
+#: admin/wcp-matches.class.php:229 admin/wcp-predictions.class.php:216
+#: admin/wcp-stages.class.php:155 admin/wcp-teams.class.php:166
+#: admin/wcp-venues.class.php:164
+msgid "Del"
+msgstr "Удалить"
+
+#: admin/wcp-matches.class.php:230 admin/wcp-predictions.class.php:217
+#: admin/wcp-results.class.php:72 admin/wcp-stages.class.php:156
+#: admin/wcp-teams.class.php:167 admin/wcp-venues.class.php:165
+msgid "ID"
+msgstr "ID"
+
+#: admin/wcp-matches.class.php:231 admin/wcp-predictions.class.php:220
+#: admin/wcp-results.class.php:73
+msgid "#"
+msgstr "#"
+
+#: admin/wcp-matches.class.php:234 admin/wcp-results.class.php:75
+msgid "Kickoff"
+msgstr "Плей-Офф"
+
+#: admin/wcp-matches.class.php:237 admin/wcp-predictions.class.php:223
+#: admin/wcp-results.class.php:77
+msgid "A"
+msgstr "A"
+
+#: admin/wcp-matches.class.php:239 admin/wcp-predictions.class.php:225
+#: admin/wcp-results.class.php:79
+msgid "B"
+msgstr "B"
+
+#: admin/wcp-matches.class.php:241
+msgid "E.T."
+msgstr "E.T."
+
+#: admin/wcp-matches.class.php:242 admin/wcp-predictions.class.php:227
+#: admin/wcp-results.class.php:81 admin/wcp-stages.class.php:160
+#: admin/wcp-teams.class.php:173 admin/wcp-venues.class.php:170
+msgid "Last Modified"
+msgstr "Последнее изменение"
+
+#: admin/wcp-matches.class.php:251
+msgid "Modify this match"
+msgstr "Изменить этот матч"
+
+#: admin/wcp-matches.class.php:280 admin/wcp-predictions.class.php:271
+#: admin/wcp-stages.class.php:181 admin/wcp-teams.class.php:196
+#: admin/wcp-venues.class.php:192
+msgid "Delete Selected"
+msgstr "Удалить выбранное"
+
+#: admin/wcp-matches.class.php:293
+msgid "Match#, and goals must be numeric"
+msgstr "Матч#, и голы должны быть числовым"
+
+#: admin/wcp-matches.class.php:298 admin/wcp-predictions.class.php:301
+msgid "Penalties must be numeric"
+msgstr "Пенальти должны быть числовым"
+
+#: admin/wcp-matches.class.php:303
+msgid "Select two different teams"
+msgstr "Выберите две разные команды"
+
+#: admin/wcp-matches.class.php:308
+msgid "Select a venue and stage"
+msgstr "Выберите место и стадион"
+
+#: admin/wcp-matches.class.php:313
+msgid "Kickoff must be valid YYYY-MM-DD HH:MM:SS date time format."
+msgstr "Плей-Офф должен быть в формате YYYY-MM-DD HH:MM:SS даты и времени."
+
+#: admin/wcp-matches.class.php:410
+#, fuzzy
+#| msgid "Can not delete a team with matches"
+msgid "Can not delete a match with predictions"
+msgstr "Не удается удалить команду со спичками"
+
+#: admin/wcp-menu.class.php:23 admin/wcp-overview.class.php:72
+msgid "WCP Manager"
+msgstr "Кубок мира Manager"
+
+#: admin/wcp-menu.class.php:28
+msgid "Teams"
+msgstr "Команды"
+
+#: admin/wcp-menu.class.php:29
+msgid "Venues"
+msgstr "Места"
+
+#: admin/wcp-menu.class.php:30
+msgid "Stages"
+msgstr "Этапы"
+
+#: admin/wcp-menu.class.php:31
+msgid "Matches"
+msgstr "Матчи"
+
+#: admin/wcp-menu.class.php:32 admin/wcp-menu.class.php:67
+msgid "Group Results"
+msgstr "результаты группы"
+
+#: admin/wcp-overview.class.php:30
+msgid "At a Glance"
+msgstr "на взгляд"
+
+#: admin/wcp-overview.class.php:54
+msgid "Here you can import your teams, venues and match schedules."
+msgstr ""
+"Здесь вы можете импортировать ваши команды, места проведения матчей и сроки."
+
+#: admin/wcp-overview.class.php:58
+msgid "Championship"
+msgstr ""
+
+#: admin/wcp-overview.class.php:60
+msgid "Confederations Cup 2017"
+msgstr ""
+
+#: admin/wcp-overview.class.php:61
+msgid "Euro 2016"
+msgstr ""
+
+#: admin/wcp-overview.class.php:62
+#, fuzzy
+#| msgid "World Cup Predictor"
+msgid "World Cup 2014"
+msgstr "Прогноз Результатов Чемпионата Мира"
+
+#: admin/wcp-overview.class.php:66
+msgid "Import"
+msgstr "Импорт"
+
+#: admin/wcp-overview.class.php:72
+msgid "no"
+msgstr "нет"
+
+#: admin/wcp-overview.class.php:73
+#, php-format
+msgid "You currently have %s rights."
+msgstr "Вы в настоящее время имеете права %s."
+
+#: admin/wcp-overview.class.php:99
+#, php-format
+msgid ""
+"Newsfeed could not be loaded.  Check the <a href=\"%s\">front page</a> to "
+"check for updates."
+msgstr ""
+"Новости не могут быть загружены. Ознакомьтесь с <a href=\"%s\"> передней "
+"страницей </a>, чтобы проверить наличие обновлений."
+
+#: admin/wcp-overview.class.php:131
+msgid "Thank you to all donators..."
+msgstr "Спасибо всем меценатам ..."
+
+#: admin/wcp-overview.class.php:158
+msgid "Not set"
+msgstr "не установлено"
+
+#: admin/wcp-overview.class.php:160
+msgid "On"
+msgstr "On"
+
+#: admin/wcp-overview.class.php:161
+msgid "Off"
+msgstr "Off"
+
+#: admin/wcp-overview.class.php:164
+msgid "Operating System"
+msgstr "Operating System"
+
+#: admin/wcp-overview.class.php:165
+msgid "Server"
+msgstr "Server"
+
+#: admin/wcp-overview.class.php:166
+msgid "MYSQL Version"
+msgstr "MYSQL Version"
+
+#: admin/wcp-overview.class.php:167
+msgid "SQL Mode"
+msgstr "SQL Mode"
+
+#: admin/wcp-overview.class.php:168
+msgid "PHP Version"
+msgstr "PHP Version"
+
+#: admin/wcp-overview.class.php:169
+msgid "PHP Safe Mode"
+msgstr "PHP Safe Mode"
+
+#: admin/wcp-overview.class.php:192
+msgid "Support Forum"
+msgstr "Поддержка Форум"
+
+#: admin/wcp-overview.class.php:201
+msgid "Welcome to World Cup Predictor V "
+msgstr "Добро пожаловать в предсказатель Чемпионата мира V"
+
+#: admin/wcp-overview.class.php:202
+msgid "Latest News"
+msgstr "Последние новости"
+
+#: admin/wcp-overview.class.php:203
+msgid "Recent donators"
+msgstr "Последние меценаты"
+
+#: admin/wcp-overview.class.php:204
+msgid "Server Settings"
+msgstr "Server Settings"
+
+#: admin/wcp-overview.class.php:205
+msgid "Settings"
+msgstr "Настройки"
+
+#: admin/wcp-overview.class.php:206
+msgid "Support"
+msgstr "Поддержка"
+
+#: admin/wcp-overview.class.php:213
+msgid "World Cup Predictor Overview"
+msgstr "Обзор предсказателя Чемпионата мира"
+
+#: admin/wcp-predictions.class.php:109
+msgid "Manage predictions"
+msgstr "Управление прогнозами"
+
+#: admin/wcp-predictions.class.php:111
+msgid ""
+"For a manually entered prediction the prediction time must be before the "
+"kickoff time."
+msgstr ""
+"Для введенного вручную прогнозирования время предсказания должны быть до "
+"времени стартового."
+
+#: admin/wcp-predictions.class.php:121
+msgid "Select user"
+msgstr "Выбор пользователей"
+
+#: admin/wcp-predictions.class.php:126
+msgid "Select match"
+msgstr "Выбрать матч"
+
+#: admin/wcp-predictions.class.php:145
+msgid "Prediction time"
+msgstr "Вреня Прогноза"
+
+#: admin/wcp-predictions.class.php:150 admin/wcp-scoring.class.php:183
+msgid "All Users"
+msgstr "Все пользователи"
+
+#: admin/wcp-predictions.class.php:152
+msgid "All Stages"
+msgstr "Все этапы"
+
+#: admin/wcp-predictions.class.php:154
+msgid "All Teams"
+msgstr "Все команды"
+
+#: admin/wcp-predictions.class.php:156 admin/wcp-scoring.class.php:184
+msgid "Filter"
+msgstr "Фильтр"
+
+#: admin/wcp-predictions.class.php:163
+msgid "Modify Prediction"
+msgstr "Изменение прогноза"
+
+#: admin/wcp-predictions.class.php:169
+msgid "Add Prediction"
+msgstr "Добавить прогноз"
+
+#: admin/wcp-predictions.class.php:208
+msgid "All times are UTC"
+msgstr "Часовой пояс UTC"
+
+#: admin/wcp-predictions.class.php:239
+msgid "Modify this prediction"
+msgstr "Изменить этот прогноз"
+
+#: admin/wcp-predictions.class.php:282
+msgid "All Matches"
+msgstr "Все матчи"
+
+#: admin/wcp-predictions.class.php:283
+msgid "Results only"
+msgstr "Итоги только"
+
+#: admin/wcp-predictions.class.php:284
+msgid "Pending matches only"
+msgstr "только незаконченные матчи"
+
+#: admin/wcp-predictions.class.php:296
+msgid "Goals and points must be numeric"
+msgstr "Голы и Очки должны быть числовыми"
+
+#: admin/wcp-predictions.class.php:306
+msgid "Select a user and match"
+msgstr "Выберите пользователя и матч"
+
+#: admin/wcp-predictions.class.php:311
+msgid "Prediction time must be valid YYYY-MM-DD HH:MM:SS date time format."
+msgstr ""
+"Время прогноза должно быть в формате YYYY-MM-DD HH:MM:SS даты и времени."
+
+#: admin/wcp-results.class.php:32
+msgid "Prediction points updated."
+msgstr "Прогнозирование очки обновлены."
+
+#: admin/wcp-results.class.php:37
+msgid "Assign prediction scores for completed matches"
+msgstr "Сравнить прогнозы с результатами завершенных матчей"
+
+#: admin/wcp-results.class.php:39
+msgid "Select each newly completed match to assign users' scores."
+msgstr "Выберите завершенные матчи для сравнения с результатами пользователей"
+
+#: admin/wcp-results.class.php:39
+msgid "Enter Match Results"
+msgstr "Ввод результатов матчей"
+
+#: admin/wcp-results.class.php:41
+#, php-format
+msgid ""
+"Matches marked with a green tick (%s) are finished and have been scored."
+msgstr "Матчи отмечены зеленой галочкой (%s) закончены и были забиты."
+
+#: admin/wcp-results.class.php:71
+msgid "Sel"
+msgstr "Выбор"
+
+#: admin/wcp-results.class.php:119
+msgid "Score Selected"
+msgstr "Выбранные результаты"
+
+#: admin/wcp-scoring.class.php:41
+msgid "WCP Manager Predictions"
+msgstr "Менеджер Прогнозов Кубка мира"
+
+#: admin/wcp-scoring.class.php:47
+msgid "Score Matches"
+msgstr "Результаты Матчей"
+
+#: admin/wcp-scoring.class.php:48
+msgid "Users Ranking"
+msgstr "Рейтинг Пользователей"
+
+#: admin/wcp-scoring.class.php:49
+msgid "Configure Scoring"
+msgstr "Настройка Рейтинга"
+
+#: admin/wcp-scoring.class.php:88
+msgid "Points must be numeric"
+msgstr "очки должны быть числовыми"
+
+#: admin/wcp-scoring.class.php:100
+msgid "This includes the penalties in the knockout stage if applicable"
+msgstr "Это включает в себя пенальти в плей-офф, если применимо"
+
+#: admin/wcp-scoring.class.php:104
+msgid "Setup points allocation"
+msgstr "Установка распределения очков"
+
+#: admin/wcp-scoring.class.php:113
+msgid "Points for correct score"
+msgstr "Очки для правильную оценку"
+
+#: admin/wcp-scoring.class.php:115
+#, php-format
+msgid "For example predict 3-0 and the result is 3-0 award %d points"
+msgstr "Например предсказать 3-0  результат 3-0 награда %d очков"
+
+#: admin/wcp-scoring.class.php:118
+msgid "Points for guessing a draw"
+msgstr "Очки за попытку угадать ничью"
+
+#: admin/wcp-scoring.class.php:120
+#, php-format
+msgid "For example predict 2-2 and the result is 1-1 award %d points"
+msgstr "Например предсказать 2-2 результат 1-1 награда %d очков"
+
+#: admin/wcp-scoring.class.php:123
+msgid "Wrong score but predicted the correct winner"
+msgstr "Неверный счет, но предсказал победу"
+
+#: admin/wcp-scoring.class.php:125
+#, php-format
+msgid "For example predict 1-0 and the result is 2-0 award %d points"
+msgstr "Например предсказать 1-0 результат 2-0 награда %d очков"
+
+#: admin/wcp-scoring.class.php:128
+#, php-format
+msgid ""
+"Points above are not cummulative, for example predict 2-2 and the result is "
+"2-2, you gain %d\n"
+"\t\t\tpoints, NOT %d points"
+msgstr ""
+"Очки выше не накапливаются с предыдущими, например, предсказать 2-2 и 2-2 в "
+"результате, вы получаете %d\n"
+"\t\t\tpoints, NOT %d points"
+
+#: admin/wcp-scoring.class.php:131
+msgid "Bonus points"
+msgstr "Бонусные очки"
+
+#: admin/wcp-scoring.class.php:134
+msgid "Points for correct number of goals"
+msgstr "Очки для правильного количество голов"
+
+#: admin/wcp-scoring.class.php:136
+#, php-format
+msgid "For example predict 3-0 and the result is 3-1 award extra %d points"
+msgstr ""
+"Например предсказать 3-0, а результат 3-1 награда - дополнительные очки %d"
+
+#: admin/wcp-scoring.class.php:139
+msgid "Points for correct goal difference"
+msgstr "Очки для правильную разницу мячей"
+
+#: admin/wcp-scoring.class.php:141
+#, php-format
+msgid "For example predict 5-3 and the result is 3-1 award extra %d points"
+msgstr ""
+"Например предсказать 5-3, а результат 3-1 награда - дополнительные очки %d"
+
+#: admin/wcp-scoring.class.php:144
+msgid "Bonus points are cummulative"
+msgstr "Бонусные очки складываются с предыдущими"
+
+#: admin/wcp-scoring.class.php:173
+msgid "Ranking and Scores"
+msgstr "Рейтинг и очки"
+
+#: admin/wcp-scoring.class.php:179
+msgid "Select Match Result"
+msgstr "Выбор Результата матча"
+
+#: admin/wcp-scoring.class.php:180
+msgid "Select"
+msgstr "Выбор"
+
+#: admin/wcp-scoring.class.php:188
+msgid "User Points"
+msgstr "Очки пользователя"
+
+#: admin/wcp-scoring.class.php:193
+msgid "Ranking"
+msgstr "Рейтинг"
+
+#: admin/wcp-stages.class.php:102
+msgid "Manage stages"
+msgstr "Управление этапами"
+
+#: admin/wcp-stages.class.php:111 admin/wcp-stages.class.php:157
+msgid "Stage Name"
+msgstr "Название этапа"
+
+#: admin/wcp-stages.class.php:115 admin/wcp-stages.class.php:158
+msgid "Group Stage"
+msgstr "Групповой этап"
+
+#: admin/wcp-stages.class.php:119 admin/wcp-stages.class.php:159
+msgid "Sort Order"
+msgstr "Порядок сортировки"
+
+#: admin/wcp-stages.class.php:127
+msgid "Modify Stage"
+msgstr "Изменить этап"
+
+#: admin/wcp-stages.class.php:133
+msgid "Add Stage"
+msgstr "Добавить этап"
+
+#: admin/wcp-stages.class.php:169
+msgid "Modify this stage"
+msgstr "Изменить данный этап"
+
+#: admin/wcp-stages.class.php:194
+msgid "Stage Name can not be empty"
+msgstr "этап не может быть пустым"
+
+#: admin/wcp-stages.class.php:198
+msgid "Sort order must be numeric"
+msgstr "Порядок сортировки должен быть числом"
+
+#: admin/wcp-stages.class.php:284
+msgid "Can not delete a stage with matches"
+msgstr "Невозможно удалить сцену с матчей"
+
+#: admin/wcp-teams.class.php:104
+msgid "Manage teams"
+msgstr "Управление командами"
+
+#: admin/wcp-teams.class.php:115 admin/wcp-teams.class.php:168
+msgid "Team Name"
+msgstr "Название команды"
+
+#: admin/wcp-teams.class.php:119 admin/wcp-teams.class.php:170
+msgid "Country Code"
+msgstr "код страны"
+
+#: admin/wcp-teams.class.php:123 admin/wcp-teams.class.php:171
+msgid "Team URL"
+msgstr "URL Команды"
+
+#: admin/wcp-teams.class.php:127 admin/wcp-teams.class.php:172
+msgid "Group Order"
+msgstr "Заказать Группа"
+
+#: admin/wcp-teams.class.php:135
+msgid "Modify Team"
+msgstr "Изменить Команду"
+
+#: admin/wcp-teams.class.php:141
+msgid "Add Team"
+msgstr "Добавить Команду"
+
+#: admin/wcp-teams.class.php:169
+msgid "Flag"
+msgstr "Флаг"
+
+#: admin/wcp-teams.class.php:182
+msgid "Modify this team"
+msgstr "Изменить эту команду"
+
+#: admin/wcp-teams.class.php:209
+msgid "Team Name or Country Code can not be empty"
+msgstr "Название команды или код страны не может быть пустыми"
+
+#: admin/wcp-teams.class.php:214
+#, fuzzy
+#| msgid "Sort order must be numeric"
+msgid "Group Order must be numeric"
+msgstr "Порядок сортировки должен быть числом"
+
+#: admin/wcp-teams.class.php:302
+msgid "Can not delete a team with matches"
+msgstr "Не удается удалить команду со спичками"
+
+#: admin/wcp-venues.class.php:102
+msgid "Manage venues"
+msgstr "Управление местами встречи"
+
+#: admin/wcp-venues.class.php:113 admin/wcp-venues.class.php:166
+msgid "Venue Name"
+msgstr "Место встречи"
+
+#: admin/wcp-venues.class.php:117 admin/wcp-venues.class.php:167
+msgid "Venue URL"
+msgstr "URL Место встречи"
+
+#: admin/wcp-venues.class.php:121 admin/wcp-venues.class.php:168
+msgid "Stadium"
+msgstr "Стадион"
+
+#: admin/wcp-venues.class.php:125
+msgid "UTC Offset in hours"
+msgstr "UTC Offset в часах"
+
+#: admin/wcp-venues.class.php:133
+msgid "Modify Venue"
+msgstr "Изменить Место встречи"
+
+#: admin/wcp-venues.class.php:139
+msgid "Add Venue"
+msgstr "Добавить Место встречи"
+
+#: admin/wcp-venues.class.php:169
+msgid "UTC+"
+msgstr ""
+
+#: admin/wcp-venues.class.php:179
+msgid "Modify this venue"
+msgstr "Изменить это место"
+
+#: admin/wcp-venues.class.php:205
+msgid "Venue Name or Stadium can not be empty"
+msgstr "Имя места или стадион не может быть пустыми"
+
+#: admin/wcp-venues.class.php:210
+msgid "UTC Offset must be numeric"
+msgstr "UTC Offset должно быть числовым"
+
+#: admin/wcp-venues.class.php:298
+msgid "Can not delete a venue with matches"
+msgstr "Невозможно удалить место с матчей"
+
+#: admin/champs/euro-2016.php:139 admin/champs/wcup-2014.php:167
+msgid "Match data imported"
+msgstr "данные матча импортированны"
+
+#: admin/wcp-overview.class.php:61
+msgid "Here you can create predictions pages, group tables and rankings automatically."
+msgstr ""
+
+#: admin/wcp-overview.class.php:65
+msgid "Create Pages"
+msgstr ""
+
+#: admin/wcp-overview.class.php:79
+msgid "Champions League 2019/2020"
+msgstr ""
+
+#: admin/wcp-overview.class.php:240
+msgid "Predictions by Match"
+msgstr ""
+
+#: admin/wcp-overview.class.php:246
+msgid "Predictions of User"
+msgstr ""
+
+#: admin/wcp-overview.class.php:258
+msgid "Group Tables"
+msgstr ""
+
+#~ msgid "Timezone difference must be in [+/-]HH:MM format, e.g. +03:00."
+#~ msgstr "Разница по времени должна быть в формате [+/-]HH:MM, т.е. +03:00."
+
+#~ msgid "Timezone difference updated"
+#~ msgstr "Разница по времени установлена"
+
+#~ msgid "Server local time"
+#~ msgstr "Местное время сервера"
+
+#~ msgid "South African Time SAST"
+#~ msgstr "Южно-Африканское время  (SAST)"
+
+#~ msgid "Ensure this timezone difference is correct or change it below."
+#~ msgstr ""
+#~ "Убедитесь, что разница часовых поясов правильнa или изменитe еe ниже"
+
+#~ msgid "Add +/- HH:MM to Server Local Time"
+#~ msgstr "Добавить + / - ЧЧ: ММ к серверу Местное время"
+
+#~ msgid "Link to Authors site in footer"
+#~ msgstr "Ссылка Авторы сайта в нижний колонтитул"
+
+#~ msgid "Knockout Results"
+#~ msgstr "Knockout результаты"
+
+#~ msgid "Donate"
+#~ msgstr "Donate"
+
+#~ msgid "Name"
+#~ msgstr "Название"
+
+#~ msgid "Group"
+#~ msgstr "Группа"
+
+#~ msgid "Sort"
+#~ msgstr "Сортировка"
+
+#~ msgid "You must be logged in to predict."
+#~ msgstr "Вы должны войти в систему для прогноза"
+
+#~ msgid "Penalty"
+#~ msgstr "Пенальти "
+
+#~ msgid "shootout"
+#~ msgstr "Пенальти"
+
+#~ msgid "vs"
+#~ msgstr "с"
+
+#~ msgid "Display World Cup Predictions"
+#~ msgstr "Показать прогнозы Чемпионата Мира"
+
+#~ msgid "Display Users World Cup Predictions"
+#~ msgstr "Показать пользователей Прогноз Результатов Чемпионата Мира"
+
+#~ msgid "World Cup User Predictions"
+#~ msgstr "Прогнозы Результатов Чемпионата Мира"
+
+#~ msgid "Show Total:"
+#~ msgstr "Показать Всего:"
+
+#~ msgid "http://www.ianhaycox.com/worldcuppredictor"
+#~ msgstr "http://www.barbeerblues.com"
+
+#~ msgid ""
+#~ "World Cup Predictor - Guess the outcome of World Cup football/soccer "
+#~ "games, aka Fantasy Football"
+#~ msgstr ""
+#~ "World Cup Predictor - Guess the outcome of World Cup football/soccer "
+#~ "games, aka Fantasy Football"
+
+#~ msgid "Ian Haycox"
+#~ msgstr "Ian Haycox"
+
+#~ msgid "http://www.ianhaycox.com"
+#~ msgstr "http://www.barbeerblues.com"
+
+#~ msgid "Brazilian Time BRST"
+#~ msgstr "Бразильский Время БРСТ"
+
+#~ msgid ""
+#~ "Match times are currently set to match local time, please click here to "
+#~ "convert to your time zone."
+#~ msgstr ""
+#~ "Раз матчей в настоящее время установлен в соответствии местному времени, "
+#~ "пожалуйста, нажмите сюда, чтобы преобразовать в вашей временной зоне."
+
+#~ msgid ""
+#~ "Match times are currently set to <strong>your timezone</strong>, please "
+#~ "click here to revert to local time."
+#~ msgstr ""
+#~ "Раз матчей в настоящее время установлен в <strong> часовой пояс </ "
+#~ "STRONG>, пожалуйста, нажмите здесь, чтобы вернуться к местному времени."
+
+#~ msgid "Adjust Knockout Table to the theme Twenty Fourteen"
+#~ msgstr "Отрегулируйте Нокаут Таблица к теме Двадцать Четырнадцать"
+
+#~ msgid "Score"
+#~ msgstr "счет"
+
+#~ msgid "Wrong score but predicted a loss"
+#~ msgstr "Неверный счет, но предсказано поражение"
+
+#~ msgid "For example predict 0-1 and the result is 0-2 award %d points"
+#~ msgstr "Например предсказать 0-1 результат 0-2 награда %d очков"
